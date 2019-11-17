@@ -1,6 +1,8 @@
-
+# import sys
+# sys.path.append(r'E:\chase_Learning\chase_learning\Python接口自动化\第四课：接口对象以功能实现\auto_test')
 from order_service.api.service.coupon_create_api import CouponCreateApi
 from common.log.Logger import log
+
 
 
 # pytest风格 也可以使用py自带的参数化库

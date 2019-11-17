@@ -241,7 +241,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 17-Nov-2019 at 22:35:03 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.0</p>
+    <p>Report generated on 17-Nov-2019 at 23:27:48 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.0.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -257,8 +257,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.3</td></tr></table>
     <h2>Summary</h2>
-    <p>0 tests ran in 333.93 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">1 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 2.88 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -269,12 +269,43 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="error results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">test_case/test_coupon_service/test_coupon_create_api.py::collect</td>
-          <td class="col-duration">0.00</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_case/test_coupon_service/test_coupon_create_api.py::test_coupon_create_strong</td>
+          <td class="col-duration">1.30</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">ImportError while importing test module &#x27;E:\chase_Learning\chase_learning\Python接口自动化\第四课：接口对象以功能实现\auto_test\test_case\test_coupon_service\test_coupon_create_api.py&#x27;.<br/>Hint: make sure your test modules/packages have valid Python names.<br/>Traceback:<br/>test_case\test_coupon_service\test_coupon_create_api.py:2: in &lt;module&gt;<br/>    from order_service.api.service.coupon_create_api import CouponCreateApi<br/><span class="error">E   ModuleNotFoundError: No module named &#x27;order_service&#x27;</span><br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     STEP:Logger.py:68 验证优惠券价格=100时候接口逻辑正确
+INFO     API_DESC:Logger.py:118 添加优惠券
+INFO     INFO:Logger.py:26 Send Json request and check the http status to &#x27;200&#x27;, then return dict
+INFO     API_URL:Logger.py:118 /coupon/create
+INFO     INFO:Logger.py:26 Header: {&#x27;Content-Type&#x27;: &#x27;application/json&#x27;, &#x27;Accept&#x27;: &#x27;application/json&#x27;, &#x27;User-Agent&#x27;: &#x27;tester-pc&#x27;, &#x27;Authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NzQwMDQ0NjY1OTksImV4cCI6MTU3NDYwOTI2Nn0.8x_hoPncl8MQ_nhe5_KolRORNVGm-5tKNiLlaJQHKJ8uB73gwlhKrhXcRfNvkS3qmcmHaEamLn3XKRIgfFX8jQ&#x27;}
+INFO     API_REQUEST_624616:Logger.py:118 {
+                                            &quot;amount&quot;: 100,
+                                            &quot;code&quot;: null,
+                                            &quot;count&quot;: null,
+                                            &quot;enableTime&quot;: &quot;2019-11-28T16:00:00.000Z&quot;,
+                                            &quot;endTime&quot;: null,
+                                            &quot;id&quot;: null,
+                                            &quot;memberLevel&quot;: null,
+                                            &quot;minPoint&quot;: 10,
+                                            &quot;name&quot;: &quot;测试优惠券&quot;,
+                                            &quot;note&quot;: &quot;备注内容&quot;,
+                                            &quot;perLimit&quot;: 1,
+                                            &quot;platform&quot;: 0,
+                                            &quot;productCategoryRelationList&quot;: [],
+                                            &quot;productRelationList&quot;: [],
+                                            &quot;publishCount&quot;: 1000,
+                                            &quot;receiveCount&quot;: null,
+                                            &quot;startTime&quot;: &quot;2019-11-14T16:00:00.000Z&quot;,
+                                            &quot;type&quot;: 0,
+                                            &quot;useCount&quot;: null,
+                                            &quot;useType&quot;: 0
+                                          }
+INFO     API_RESPONSE_624616:Logger.py:118 {
+                                             &quot;code&quot;: 200,
+                                             &quot;message&quot;: &quot;操作成功&quot;,
+                                             &quot;data&quot;: 1
+                                           }<br/></div></td></tr></tbody></table></body></html>
