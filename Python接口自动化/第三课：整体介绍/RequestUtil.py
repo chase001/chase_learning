@@ -1,4 +1,5 @@
 from wsgiref import headers
+import requests
 
 
 class RequestUtil():
@@ -35,4 +36,5 @@ class RequestUtil():
 
     def Send_request(self):
         """发送请求，使用request库来实现该功能"""
+        res = requests.post(url=)
         pass
