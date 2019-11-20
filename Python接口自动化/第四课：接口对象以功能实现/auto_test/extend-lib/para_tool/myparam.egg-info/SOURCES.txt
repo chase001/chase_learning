@@ -1,4 +1,5 @@
 setup.py
+dist/myparam-1.0-py3.7.egg
 myparam.egg-info/PKG-INFO
 myparam.egg-info/SOURCES.txt
 myparam.egg-info/dependency_links.txt

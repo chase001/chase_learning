@@ -4,7 +4,6 @@ from order_service.api.service.coupon_create_api import CouponCreateApi
 from common.log.Logger import log
 
 
-
 # pytest风格 也可以使用py自带的参数化库
 # 运行这个用例需要提供redis地址修改common中的RedisUtil配置，否则会连不上redis卡住
 # def test_my_demo(my_demo_api, my_demo_mock_api):  # pytest fixture风格
@@ -31,4 +30,3 @@ def test_coupon_create_strong():
     my_demo_api.body.amount = 100
     my_demo_api.send_request()
     my_demo_api.check()
-

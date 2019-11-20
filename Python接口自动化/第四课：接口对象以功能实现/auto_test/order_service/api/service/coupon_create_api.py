@@ -7,8 +7,8 @@ class CouponCreateApi(OrderManageCreate):
         self.status = 0  # 期望返回结果
         self.update_default_body()
 
-    def update_default_body(self):
         self.body.amount = 299.99
+    def update_default_body(self):
         self.body.enableTime = "2019-11-28T16:00:00.000Z"
         self.body.minPoint = 10
         self.body.name = "测试优惠券"

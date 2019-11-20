@@ -157,4 +157,5 @@ class Logger(object):
         return sql_str
 
 
+
 log = Logger()
