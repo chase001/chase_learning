@@ -1,4 +1,0 @@
-1. 被mock对象需要继承MockObj，继承生成、存储mock_key
-2. 被调用接口需要使用MockUtil工具类来生成header数据
-3. mock_key存储在redis中
-4. mock_key从接口层面可以通过任何方式传递，目前采用通过header的方式来递传
