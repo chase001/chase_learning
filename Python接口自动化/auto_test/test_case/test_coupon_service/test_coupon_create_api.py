@@ -108,7 +108,7 @@ def test_coupon_compare_other_api(input={}, msg=None):
 
 def test_coupon_create_strong():
     log.step("验证优惠券价格=100时候接口逻辑正确")
-    my_demo_api = CouponCreateApi(amount=0, name="jfkdjfdo")
+    my_demo_api = CouponCreateApi(amount=0, name="jfkdjfdo");
     # my_demo_api.body.amount = 100
     my_demo_api.send_request()
     my_demo_api.check()
