@@ -1,6 +1,6 @@
 from order_service.api import *
 
-
+"""接口Service 有了接口结构，在实际调用时候我们需要放入特定的接口请求参数才能发起请求"""
 class CouponCreateApi(OrderManageCreate):
     def __init__(self, status=0, message='成功', **kwargs):
         super(CouponCreateApi, self).__init__()

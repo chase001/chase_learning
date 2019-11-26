@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class PrefrenceAreaListAllObj(BaseOrder):
+class PrefrenceAreaListAllObj(BaseOrderManageService):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(PrefrenceAreaListAllObj, self).__init__()
