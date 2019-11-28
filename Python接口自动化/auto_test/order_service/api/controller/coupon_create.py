@@ -5,7 +5,9 @@ from ..BaseOrderManageService import BaseOrderManageService
 
 
 class OrderManageCreate(BaseOrderManageService):
-    """api base obj"""
+    """api base obj
+    Controller 层
+    """
 
     def __init__(self, **kwargs):
         super(OrderManageCreate, self).__init__()

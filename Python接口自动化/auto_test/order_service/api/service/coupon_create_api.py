@@ -1,6 +1,6 @@
 from order_service.api import *
 
-"""接口Service 有了接口结构，在实际调用时候我们需要放入特定的接口请求参数才能发起请求"""
+"""接口Service(业务层） 有了接口结构，在实际调用时候我们需要放入特定的接口请求参数才能发起请求"""
 class CouponCreateApi(OrderManageCreate):
     def __init__(self, status=0, message='成功', **kwargs):
         super(CouponCreateApi, self).__init__()
@@ -24,6 +24,15 @@ class CouponCreateApi(OrderManageCreate):
         self.body.type = 0
         self.body.useType = 0
         self.body.update_value(**kwargs)
+
+    def add_cate_relation(self,**kwargs):
+        """
+        :param kwargs:
+        :return:
+        """
+        cate = OrderManageCreate.Body.SmsCouponProductCategoryRelation
+        add_item = cate(**kwargs)
+        self.body.productCategoryRelationList.append(add_item)
 
     def check(self):
         """

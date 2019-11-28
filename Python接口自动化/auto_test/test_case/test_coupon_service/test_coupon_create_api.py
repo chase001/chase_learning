@@ -48,6 +48,7 @@ def test_coupon_create_strong_amount_v2(req_data={}, msg=None):
     param(req_data=dict(amount=1), msg="xxxxx"),
     param(req_data=dict(amount=999.9), msg="xxxxx"),
 ])  # 第三方库参数化风格
+
 @case_model()
 def test_coupon_create_amount_v2(req_data={}, msg=None):
     log.step(msg)
