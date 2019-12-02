@@ -36,7 +36,7 @@ class ObjAssert(object):
         """
         if act_obj is None:
             act_obj = self
-        if hasattr(act_obj, 'data'):
+        if hasattr(act_obj, 'data') and is_custom_object(getattr(act_obj, 'data')):
             self.for_obj(act_obj=act_obj.data, exp_obj=exp_obj, map=map, is_toggle=is_toggle, ex=ex)
         else:
             # 开始遍历实际response中的属性值

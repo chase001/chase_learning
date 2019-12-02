@@ -606,7 +606,9 @@ class Print(object):
 
 if __name__ == '__main__':
     # base_name=基类的名称,会自动拼接Base+xxxx
-    p = Print(url='http://144.34.200.237:8080/v2/api-docs', base_name="Order", dir="order_service")
+    p = Print(url='http://144.34.200.237:8080/v2/api-docs',
+              base_name="Order",
+              dir="order_service")
 
     # 关于测试数据生成的脚本信息如下:
     # 指定请取消下面的注释方法

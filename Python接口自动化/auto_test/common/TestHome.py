@@ -24,6 +24,7 @@ def case_model(compare_hook=None, compare_obj=None, check_id=None):
                 if compare_hook and compare_obj:
                     if check_id is None:
                         compare_hook(api_obj, compare_obj)
+                        # check(api_obj, compare_obj)
                     else:
                         compare_hook(api_obj, compare_obj, check_id)
                 else:

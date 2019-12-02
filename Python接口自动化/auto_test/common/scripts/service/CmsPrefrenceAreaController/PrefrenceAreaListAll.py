@@ -2,6 +2,7 @@
 from order_service.api.controller.CmsPrefrenceAreaController.PrefrenceAreaListAllObj import PrefrenceAreaListAllObj as TemplateController
 from common.func import *
 
+
 class PrefrenceAreaListAll(TemplateController):
     """获取所有商品优选"""
     def __init__(self, status=0, message='成功', **kwargs):
@@ -21,5 +22,4 @@ class PrefrenceAreaListAll(TemplateController):
         2. 检查其他内容：redis, mq ,
         :return:
         """
-        pass       
-        
+        pass

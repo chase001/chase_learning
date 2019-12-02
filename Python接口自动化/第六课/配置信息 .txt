@@ -1,0 +1,4 @@
+/Users/yinyuting/Documents/auto_test/common/ObjAssert.py
+
+/Users/yinyuting/Documents/auto_test/test_case/test_coupon_service/test_coupon_create_api.py
+/Users/yinyuting/Documents/auto_test/order_service/api/service/coupon_create_api.py
