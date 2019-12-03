@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Test Report</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
+  <body onLoad="init()">
+    <script>/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+
+function toArray(iter) {
+    if (iter === null) {
+        return null;
+    }
+    return Array.prototype.slice.call(iter);
+}
+
+function find(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return elem.querySelector(selector);
+}
+
+function find_all(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return toArray(elem.querySelectorAll(selector));
+}
+
+function sort_column(elem) {
+    toggle_sort_states(elem);
+    var colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
+    var key;
+    if (elem.classList.contains('numeric')) {
+        key = key_num;
+    } else if (elem.classList.contains('result')) {
+        key = key_result;
+    } else {
+        key = key_alpha;
+    }
+    sort_table(elem, key(colIndex));
+}
+
+function show_all_extras() {
+    find_all('.col-result').forEach(show_extras);
+}
+
+function hide_all_extras() {
+    find_all('.col-result').forEach(hide_extras);
+}
+
+function show_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.remove("collapsed");
+    expandcollapse.classList.remove("expander");
+    expandcollapse.classList.add("collapser");
+}
+
+function hide_extras(colresult_elem) {
+    var extras = colresult_elem.parentNode.nextElementSibling;
+    var expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.add("collapsed");
+    expandcollapse.classList.remove("collapser");
+    expandcollapse.classList.add("expander");
+}
+
+function show_filters() {
+    var filter_items = document.getElementsByClassName('filter');
+    for (var i = 0; i < filter_items.length; i++)
+        filter_items[i].hidden = false;
+}
+
+function add_collapse() {
+    // Add links for show/hide all
+    var resulttable = find('table#results-table');
+    var showhideall = document.createElement("p");
+    showhideall.innerHTML = '<a href="javascript:show_all_extras()">Show all details</a> / ' +
+                            '<a href="javascript:hide_all_extras()">Hide all details</a>';
+    resulttable.parentElement.insertBefore(showhideall, resulttable);
+
+    // Add show/hide link to each result
+    find_all('.col-result').forEach(function(elem) {
+        var collapsed = get_query_parameter('collapsed') || 'Passed';
+        var extras = elem.parentNode.nextElementSibling;
+        var expandcollapse = document.createElement("span");
+        if (collapsed.includes(elem.innerHTML)) {
+            extras.classList.add("collapsed");
+            expandcollapse.classList.add("expander");
+        } else {
+            expandcollapse.classList.add("collapser");
+        }
+        elem.appendChild(expandcollapse);
+
+        elem.addEventListener("click", function(event) {
+            if (event.currentTarget.parentNode.nextElementSibling.classList.contains("collapsed")) {
+                show_extras(event.currentTarget);
+            } else {
+                hide_extras(event.currentTarget);
+            }
+        });
+    })
+}
+
+function get_query_parameter(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function init () {
+    reset_sort_headers();
+
+    add_collapse();
+
+    show_filters();
+
+    toggle_sort_states(find('.initial-sort'));
+
+    find_all('.sortable').forEach(function(elem) {
+        elem.addEventListener("click",
+                              function(event) {
+                                  sort_column(elem);
+                              }, false)
+    });
+
+};
+
+function sort_table(clicked, key_func) {
+    var rows = find_all('.results-table-row');
+    var reversed = !clicked.classList.contains('asc');
+    var sorted_rows = sort(rows, key_func, reversed);
+    /* Whole table is removed here because browsers acts much slower
+     * when appending existing elements.
+     */
+    var thead = document.getElementById("results-table-head");
+    document.getElementById('results-table').remove();
+    var parent = document.createElement("table");
+    parent.id = "results-table";
+    parent.appendChild(thead);
+    sorted_rows.forEach(function(elem) {
+        parent.appendChild(elem);
+    });
+    document.getElementsByTagName("BODY")[0].appendChild(parent);
+}
+
+function sort(items, key_func, reversed) {
+    var sort_array = items.map(function(item, i) {
+        return [key_func(item), i];
+    });
+    var multiplier = reversed ? -1 : 1;
+
+    sort_array.sort(function(a, b) {
+        var key_a = a[0];
+        var key_b = b[0];
+        return multiplier * (key_a >= key_b ? 1 : -1);
+    });
+
+    return sort_array.map(function(item) {
+        var index = item[1];
+        return items[index];
+    });
+}
+
+function key_alpha(col_index) {
+    return function(elem) {
+        return elem.childNodes[1].childNodes[col_index].firstChild.data.toLowerCase();
+    };
+}
+
+function key_num(col_index) {
+    return function(elem) {
+        return parseFloat(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function key_result(col_index) {
+    return function(elem) {
+        var strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
+                       'Skipped', 'Passed'];
+        return strings.indexOf(elem.childNodes[1].childNodes[col_index].firstChild.data);
+    };
+}
+
+function reset_sort_headers() {
+    find_all('.sort-icon').forEach(function(elem) {
+        elem.parentNode.removeChild(elem);
+    });
+    find_all('.sortable').forEach(function(elem) {
+        var icon = document.createElement("div");
+        icon.className = "sort-icon";
+        icon.textContent = "vvv";
+        elem.insertBefore(icon, elem.firstChild);
+        elem.classList.remove("desc", "active");
+        elem.classList.add("asc", "inactive");
+    });
+}
+
+function toggle_sort_states(elem) {
+    //if active, toggle between asc and desc
+    if (elem.classList.contains('active')) {
+        elem.classList.toggle('asc');
+        elem.classList.toggle('desc');
+    }
+
+    //if inactive, reset all other functions and add ascending active
+    if (elem.classList.contains('inactive')) {
+        reset_sort_headers();
+        elem.classList.remove('inactive');
+        elem.classList.add('active');
+    }
+}
+
+function is_all_rows_hidden(value) {
+  return value.hidden == false;
+}
+
+function filter_table(elem) {
+    var outcome_att = "data-test-result";
+    var outcome = elem.getAttribute(outcome_att);
+    class_outcome = outcome + " results-table-row";
+    var outcome_rows = document.getElementsByClassName(class_outcome);
+
+    for(var i = 0; i < outcome_rows.length; i++){
+        outcome_rows[i].hidden = !elem.checked;
+    }
+
+    var rows = find_all('.results-table-row').filter(is_all_rows_hidden);
+    var all_rows_hidden = rows.length == 0 ? true : false;
+    var not_found_message = document.getElementById("not-found-message");
+    not_found_message.hidden = !all_rows_hidden;
+}
+</script>
+    <h1>report.html</h1>
+    <p>Report generated on 03-Dec-2019 at 15:45:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <h2>Environment</h2>
+    <table id="environment">
+      <tr>
+        <td>Base URL</td>
+        <td></td></tr>
+      <tr>
+        <td>Capabilities</td>
+        <td>{}</td></tr>
+      <tr>
+        <td>Driver</td>
+        <td>None</td></tr>
+      <tr>
+        <td>JAVA_HOME</td>
+        <td>F:\eclipse\jdk1.864</td></tr>
+      <tr>
+        <td>Packages</td>
+        <td>{&apos;pytest&apos;: &apos;4.4.1&apos;, &apos;py&apos;: &apos;1.8.0&apos;, &apos;pluggy&apos;: &apos;0.9.0&apos;}</td></tr>
+      <tr>
+        <td>Platform</td>
+        <td>Windows-7-6.1.7601-SP1</td></tr>
+      <tr>
+        <td>Plugins</td>
+        <td>{&apos;variables&apos;: &apos;1.8.0&apos;, &apos;testconfig&apos;: &apos;0.1.1&apos;, &apos;selenium&apos;: &apos;1.17.0&apos;, &apos;rerunfailures&apos;: &apos;5.0&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;, &apos;html&apos;: &apos;1.20.0&apos;, &apos;bdd&apos;: &apos;3.2.1&apos;, &apos;base-url&apos;: &apos;1.4.1&apos;}</td></tr>
+      <tr>
+        <td>Python</td>
+        <td>3.7.0</td></tr></table>
+    <h2>Summary</h2>
+    <p>1 tests ran in 3.59 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <h2>Results</h2>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable result initial-sort" col="result">Result</th>
+          <th class="sortable" col="name">Test</th>
+          <th class="sortable numeric" col="duration">Duration</th>
+          <th>Links</th></tr>
+        <tr hidden="true" id="not-found-message">
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">test_case/test_coupon_service/test_coupon_create_api.py::test_coupon_create_strong</td>
+          <td class="col-duration">0.85</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">def test_coupon_create_strong():<br/>        log.step(&quot;验证优惠券价格=100时候接口逻辑正确&quot;)<br/>        my_demo_api = CouponCreateApi(amount=0, name=&quot;jfkdjfdo&quot;)<br/>        # my_demo_api.body.productCategoryRelationList = []<br/>        my_demo_api.add_cate_relation(couponId=&#x27;11111&#x27;, parentCategoryName=&#x27;3232&#x27;)<br/>        # for k in xxxx:<br/>            # my_demo_api.add_cate_relation(**k)<br/>        # my_demo_api.body.amount = 100<br/>        my_demo_api.send_request()<br/>&gt;       my_demo_api.check()<br/><br/>test_case\test_coupon_service\test_coupon_create_api.py:128: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>order_service\api\service\coupon_create_api.py:49: in check<br/>    from order_service.check.OrderPWUtil import db<br/>order_service\check\OrderPWUtil.py:3: in &lt;module&gt;<br/>    from order_service.db.order_model import *<br/>order_service\db\order_model.py:11: in &lt;module&gt;<br/>    class BaseModel(Model):<br/>order_service\db\order_model.py:12: in BaseModel<br/>    class Meta:<br/>order_service\db\order_model.py:13: in Meta<br/>    database = init_database(section=&#x27;order_db&#x27;)  # 活库<br/>common\db\func.py:14: in init_database<br/>    conf = db_conf()<br/>conf\conf.py:21: in db_conf<br/>    &quot;mysql.ini&quot;))<br/>conf\conf.py:10: in get_conf<br/>    conf.read(path)<br/>C:\Python\Python37-32\lib\configparser.py:696: in read<br/>    self._read(fp, filename)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;configparser.ConfigParser object at 0x047A5230&gt;<br/>fp = &lt;_io.TextIOWrapper name=&#x27;E:\\chase_Learning\\chase_learning\\Python接口自动化\\GWE_test\\conf\\mysql.ini&#x27; mode=&#x27;r&#x27; encoding=&#x27;cp936&#x27;&gt;<br/>fpname = &#x27;E:\\chase_Learning\\chase_learning\\Python接口自动化\\GWE_test\\conf\\mysql.ini&#x27;<br/><br/>    def _read(self, fp, fpname):<br/>        &quot;&quot;&quot;Parse a sectioned configuration file.<br/>    <br/>        Each section in a configuration file contains a header, indicated by<br/>        a name in square brackets (`[]&#x27;), plus key/value options, indicated by<br/>        `name&#x27; and `value&#x27; delimited with a specific substring (`=&#x27; or `:&#x27; by<br/>        default).<br/>    <br/>        Values can span multiple lines, as long as they are indented deeper<br/>        than the first line of the value. Depending on the parser&#x27;s mode, blank<br/>        lines may be treated as parts of multiline values or ignored.<br/>    <br/>        Configuration files may include comments, prefixed by specific<br/>        characters (`#&#x27; and `;&#x27; by default). Comments may appear on their own<br/>        in an otherwise empty line or may be entered in lines holding values or<br/>        section names.<br/>        &quot;&quot;&quot;<br/>        elements_added = set()<br/>        cursect = None                        # None, or a dictionary<br/>        sectname = None<br/>        optname = None<br/>        lineno = 0<br/>        indent_level = 0<br/>        e = None                              # None, or an exception<br/>&gt;       for lineno, line in enumerate(fp, start=1):<br/><span class="error">E       UnicodeDecodeError: &#x27;gbk&#x27; codec can&#x27;t decode byte 0x93 in position 26: illegal multibyte sequence</span><br/><br/>C:\Python\Python37-32\lib\configparser.py:1014: UnicodeDecodeError<br/>------------------------------ Captured log call -------------------------------<br/>Logger.py                   68 INFO     验证优惠券价格=100时候接口逻辑正确
+Logger.py                  118 INFO     添加优惠券
+Logger.py                   26 INFO     Send Json request and check the http status to &#x27;200&#x27;, then return dict
+Logger.py                  118 INFO     /coupon/create
+Logger.py                   26 INFO     Header: {&#x27;Content-Type&#x27;: &#x27;application/json&#x27;, &#x27;Accept&#x27;: &#x27;application/json&#x27;, &#x27;User-Agent&#x27;: &#x27;tester-pc&#x27;, &#x27;Authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NzUzNTkxMTE3MDcsImV4cCI6MTU3NTk2MzkxMX0.gVuSYOb8OmfsNJdb4GjN-MkkLY4GqagYYePwjFekHjQ6InxrwOy8iQRhHZWN0PMyb6CO0RNdRhHwfiIpk5LK6w&#x27;}
+Logger.py                  118 INFO     {
+  &quot;amount&quot;: 0,
+  &quot;code&quot;: null,
+  &quot;count&quot;: null,
+  &quot;enableTime&quot;: &quot;2019-11-28T16:00:00.000Z&quot;,
+  &quot;endTime&quot;: null,
+  &quot;id&quot;: null,
+  &quot;memberLevel&quot;: null,
+  &quot;minPoint&quot;: 10,
+  &quot;name&quot;: &quot;jfkdjfdo&quot;,
+  &quot;note&quot;: &quot;备注内容&quot;,
+  &quot;perLimit&quot;: 1,
+  &quot;platform&quot;: 0,
+  &quot;productCategoryRelationList&quot;: [
+    {
+      &quot;couponId&quot;: &quot;11111&quot;,
+      &quot;id&quot;: null,
+      &quot;parentCategoryName&quot;: &quot;3232&quot;,
+      &quot;productCategoryId&quot;: null,
+      &quot;productCategoryName&quot;: null
+    }
+  ],
+  &quot;productRelationList&quot;: [],
+  &quot;publishCount&quot;: 1000,
+  &quot;receiveCount&quot;: null,
+  &quot;startTime&quot;: &quot;2019-11-14T16:00:00.000Z&quot;,
+  &quot;type&quot;: 0,
+  &quot;useCount&quot;: null,
+  &quot;useType&quot;: 0
+}
+Logger.py                  118 INFO     {
+  &quot;code&quot;: 200,
+  &quot;message&quot;: &quot;操作成功&quot;,
+  &quot;data&quot;: 1
+}</div></td></tr></tbody></table></body></html>
