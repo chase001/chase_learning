@@ -1,5 +1,5 @@
 from common.CompareModel import CompareModel
-from .OrderPWUtil import PwSubServiceUtil
+from .PwSubServiceUtil import PwSubServiceUtil
 from .BusinessInfo import BusinessInfo
 
 

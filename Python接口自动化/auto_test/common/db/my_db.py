@@ -120,6 +120,7 @@ class MyDB(object):
         return self.offset(offset=offset,
                            limit=limit)
 
+
     def join_left(self, table, on_list=[]):
         """
         如果有自行实现把, 看怎么方便怎么传

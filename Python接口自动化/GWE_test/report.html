@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 03-Dec-2019 at 15:45:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <p>Report generated on 06-Dec-2019 at 12:05:34 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -263,8 +263,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.0</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 3.59 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>1 tests ran in 12.65 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -275,19 +275,19 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">test_case/test_coupon_service/test_coupon_create_api.py::test_coupon_create_strong</td>
-          <td class="col-duration">0.85</td>
+          <td class="col-duration">11.61</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">def test_coupon_create_strong():<br/>        log.step(&quot;验证优惠券价格=100时候接口逻辑正确&quot;)<br/>        my_demo_api = CouponCreateApi(amount=0, name=&quot;jfkdjfdo&quot;)<br/>        # my_demo_api.body.productCategoryRelationList = []<br/>        my_demo_api.add_cate_relation(couponId=&#x27;11111&#x27;, parentCategoryName=&#x27;3232&#x27;)<br/>        # for k in xxxx:<br/>            # my_demo_api.add_cate_relation(**k)<br/>        # my_demo_api.body.amount = 100<br/>        my_demo_api.send_request()<br/>&gt;       my_demo_api.check()<br/><br/>test_case\test_coupon_service\test_coupon_create_api.py:128: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>order_service\api\service\coupon_create_api.py:49: in check<br/>    from order_service.check.OrderPWUtil import db<br/>order_service\check\OrderPWUtil.py:3: in &lt;module&gt;<br/>    from order_service.db.order_model import *<br/>order_service\db\order_model.py:11: in &lt;module&gt;<br/>    class BaseModel(Model):<br/>order_service\db\order_model.py:12: in BaseModel<br/>    class Meta:<br/>order_service\db\order_model.py:13: in Meta<br/>    database = init_database(section=&#x27;order_db&#x27;)  # 活库<br/>common\db\func.py:14: in init_database<br/>    conf = db_conf()<br/>conf\conf.py:21: in db_conf<br/>    &quot;mysql.ini&quot;))<br/>conf\conf.py:10: in get_conf<br/>    conf.read(path)<br/>C:\Python\Python37-32\lib\configparser.py:696: in read<br/>    self._read(fp, filename)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;configparser.ConfigParser object at 0x047A5230&gt;<br/>fp = &lt;_io.TextIOWrapper name=&#x27;E:\\chase_Learning\\chase_learning\\Python接口自动化\\GWE_test\\conf\\mysql.ini&#x27; mode=&#x27;r&#x27; encoding=&#x27;cp936&#x27;&gt;<br/>fpname = &#x27;E:\\chase_Learning\\chase_learning\\Python接口自动化\\GWE_test\\conf\\mysql.ini&#x27;<br/><br/>    def _read(self, fp, fpname):<br/>        &quot;&quot;&quot;Parse a sectioned configuration file.<br/>    <br/>        Each section in a configuration file contains a header, indicated by<br/>        a name in square brackets (`[]&#x27;), plus key/value options, indicated by<br/>        `name&#x27; and `value&#x27; delimited with a specific substring (`=&#x27; or `:&#x27; by<br/>        default).<br/>    <br/>        Values can span multiple lines, as long as they are indented deeper<br/>        than the first line of the value. Depending on the parser&#x27;s mode, blank<br/>        lines may be treated as parts of multiline values or ignored.<br/>    <br/>        Configuration files may include comments, prefixed by specific<br/>        characters (`#&#x27; and `;&#x27; by default). Comments may appear on their own<br/>        in an otherwise empty line or may be entered in lines holding values or<br/>        section names.<br/>        &quot;&quot;&quot;<br/>        elements_added = set()<br/>        cursect = None                        # None, or a dictionary<br/>        sectname = None<br/>        optname = None<br/>        lineno = 0<br/>        indent_level = 0<br/>        e = None                              # None, or an exception<br/>&gt;       for lineno, line in enumerate(fp, start=1):<br/><span class="error">E       UnicodeDecodeError: &#x27;gbk&#x27; codec can&#x27;t decode byte 0x93 in position 26: illegal multibyte sequence</span><br/><br/>C:\Python\Python37-32\lib\configparser.py:1014: UnicodeDecodeError<br/>------------------------------ Captured log call -------------------------------<br/>Logger.py                   68 INFO     验证优惠券价格=100时候接口逻辑正确
+            <div class="log">------------------------------ Captured log call -------------------------------<br/>Logger.py                   68 INFO     验证优惠券价格=100时候接口逻辑正确
 Logger.py                  118 INFO     添加优惠券
 Logger.py                   26 INFO     Send Json request and check the http status to &#x27;200&#x27;, then return dict
 Logger.py                  118 INFO     /coupon/create
-Logger.py                   26 INFO     Header: {&#x27;Content-Type&#x27;: &#x27;application/json&#x27;, &#x27;Accept&#x27;: &#x27;application/json&#x27;, &#x27;User-Agent&#x27;: &#x27;tester-pc&#x27;, &#x27;Authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NzUzNTkxMTE3MDcsImV4cCI6MTU3NTk2MzkxMX0.gVuSYOb8OmfsNJdb4GjN-MkkLY4GqagYYePwjFekHjQ6InxrwOy8iQRhHZWN0PMyb6CO0RNdRhHwfiIpk5LK6w&#x27;}
+Logger.py                   26 INFO     Header: {&#x27;Content-Type&#x27;: &#x27;application/json&#x27;, &#x27;Accept&#x27;: &#x27;application/json&#x27;, &#x27;User-Agent&#x27;: &#x27;tester-pc&#x27;, &#x27;Authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1NzU2MDUxMjIyNzksImV4cCI6MTU3NjIwOTkyMn0.Q_Cmb87u7AEmTPpLRiXLdIIXj1nOTXNleKNV9nAm7jLCDk-iX-OrUKM7MInjq81IlTBgAj0kii1AvbwMHIhV7Q&#x27;}
 Logger.py                  118 INFO     {
   &quot;amount&quot;: 0,
   &quot;code&quot;: null,
@@ -322,4 +322,5 @@ Logger.py                  118 INFO     {
   &quot;code&quot;: 200,
   &quot;message&quot;: &quot;操作成功&quot;,
   &quot;data&quot;: 1
-}</div></td></tr></tbody></table></body></html>
+}
+Logger.py                   49 INFO     [144.34.200.237]:SELECT `t1`.`*`FROM `sms_coupon` AS `t1` WHERE (`t1`.`name` = 测试优惠券) LIMIT 1</div></td></tr></tbody></table></body></html>

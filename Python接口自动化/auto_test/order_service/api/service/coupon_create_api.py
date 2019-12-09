@@ -46,9 +46,7 @@ class CouponCreateApi(OrderManageCreate):
         :return:
         """
         assert str(self.status) == str(self.resp.code)  # 根据业务可做抽取
-        from order_service.check.OrderPWUtil import db
-        r = db.sms_coupon(name="测试优惠券")
-        print(r)
+        # from sub_service_1.check.SubServiceCompare import SubServiceCompare
         # compare = SubServiceCompare(order_id=111111)
         # compare.add_table(table_name_key='table_name_1')
         # compare.do(ex=['id'])

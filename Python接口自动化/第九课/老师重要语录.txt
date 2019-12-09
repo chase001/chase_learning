@@ -1,0 +1,23 @@
+请叫我鸽子:
+https://www.cnblogs.com/anliven/p/9840583.html
+
+请叫我鸽子:
+@all 我们项目里面有个myparam的包 需要大家手动安装的 有同学可能不了解原理 所以不理解为什么我们要那样安装。
+
+请叫我鸽子:
+可以看下我发的这个文章。这个也算是一个基础知识
+
+请叫我鸽子:
+其实就是一个手动打包自己写的包文件。 然后给给到别人让别人在安装一次
+
+请叫我鸽子:
+如果打好的包放到网上，那就是像pip install. xxx 一样 这个也是可以执行 下载源的。比如有些国外的可能下载比较慢。我们会执行成豆瓣的下载源
+
+请叫我鸽子:
+pip3 install pandas -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+
+请叫我鸽子:
+例如这样
+
+请叫我鸽子:
+当我们进入到文件目录里面 执行 python setup.py install 进行安装的时候 其实就和我们执行普通的python脚本没有区别，  只是你执行的这个脚本是一个依赖库的安装脚本。需要你带一个install的参数

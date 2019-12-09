@@ -1,8 +1,7 @@
-from peewee import MySQLDatabase, DoesNotExist
+from peewee import MySQLDatabase
 from conf.conf import *
 from functools import wraps
 import math
-from common.func import *
 
 
 def init_database(section):

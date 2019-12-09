@@ -1,27 +1,19 @@
 # -*- coding: UTF-8 -*-
 from common.log.Logger import log
-from common.objects import BaseObj
-from common.func import str_convert_to_camel
 
 
 class PeeweeUtil(object):
     def __init__(self, query=None, dbase=None, index=None):
-        """
-        在这个里面做查询可以修改db配置
-        :param query: 查询的query
-        :param dbase: 查询的数据库，不传默认为当前库
-        :param index: 查询的表序号，不传默认唯一一张表
-        """
+        """在这个里面做查询可以修改db配置"""
         self.query = query
         self.dbase = dbase
         self.index = index
-        # 目前pw升级后这种方式修改table已不灵了
         self.origin_table_name = query.model._meta.table_name if query is not None else None  # 原始表名字
         self.origin_database_name = query.model._meta.database if query is not None else None # 原始db名字
         # print("原始配置:" + self.origin_database_name.database + "   " + self.origin_table_name)
 
     def __enter__(self):
-        # 这里放入在正式查询sql前需要做的内容
+        # 进来修改配置
         if self.dbase:
             print("修改db到:" + self.dbase.database)
             self.query.model._meta.database = self.dbase
@@ -32,7 +24,6 @@ class PeeweeUtil(object):
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        # 这里放入查询sql结束后需要做的事宜
         try:
             if self.query:
                 self.query.model._meta.database = self.origin_database_name
@@ -73,7 +64,7 @@ class PeeweeUtil(object):
             else:
                 return back
         elif sql_type == 'update':
-            update_result = self.query.execute()  # 更新结果是影响行数
+            update_result=self.query.execute()  #更新结果是影响行数
             return update_result
 
     def retry_len(self, query):
@@ -101,9 +92,9 @@ class PeeweeUtil(object):
         :return:
         """
 
-        class Temp(BaseObj):
+        class Temp(CommonBaseObj):
             def __init__(self, **kwargs):
-                super(Temp, self).__init__(**kwargs)
+                super(Temp, self).__init__(kwargs)
 
             def __iter__(self):
                 return self
@@ -114,6 +105,7 @@ class PeeweeUtil(object):
             if k == 'order':
                 k = k + '_id'
             if is_convert_camel:
+                from hujiang.business.apiCommonTools.common import str_convert_to_camel
                 k = str_convert_to_camel(k, "_")
             setattr(new_obj, k, v)
         return new_obj
