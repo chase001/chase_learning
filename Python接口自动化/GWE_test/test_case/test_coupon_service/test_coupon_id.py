@@ -1,3 +1,5 @@
+import sys
+sys.path.append(u"E:\chase_Learning\chase_learning\Python接口自动化\GWE_test")
 
 from order_service.api.service.CouponId import CouponId
 from common.log.Logger import log

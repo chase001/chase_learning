@@ -1,4 +1,3 @@
-
 from common.objects import BaseObj
 from order_service.api import *
 
