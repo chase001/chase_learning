@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class FlashSessionListObj(BaseOrder):
+class FlashSessionListObj(Baserder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(FlashSessionListObj, self).__init__()

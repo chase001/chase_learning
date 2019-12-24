@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class RolePermissionRoleIdObj(BaseOrder):
+class RolePermissionRoleIdObj(Baserder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(RolePermissionRoleIdObj, self).__init__()
