@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class ProductAttributeCategoryUpdateIdObj(Baserder):
+class ProductAttributeCategoryUpdateIdObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(ProductAttributeCategoryUpdateIdObj, self).__init__()

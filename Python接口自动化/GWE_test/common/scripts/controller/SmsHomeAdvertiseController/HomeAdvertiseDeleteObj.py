@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class HomeAdvertiseDeleteObj(Baserder):
+class HomeAdvertiseDeleteObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(HomeAdvertiseDeleteObj, self).__init__()

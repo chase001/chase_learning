@@ -7,7 +7,7 @@ root_path = os.path.dirname(conf_path)
 
 def get_conf(path):
     conf = configparser.ConfigParser()
-    conf.read(path)
+    conf.read(path, encoding='utf-8')
     return conf
 
 

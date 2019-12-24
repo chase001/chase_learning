@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class BrandDeleteBatchObj(Baserder):
+class BrandDeleteBatchObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(BrandDeleteBatchObj, self).__init__()

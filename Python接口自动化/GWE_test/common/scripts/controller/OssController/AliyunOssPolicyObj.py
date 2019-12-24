@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class AliyunOssPolicyObj(Baserder):
+class AliyunOssPolicyObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(AliyunOssPolicyObj, self).__init__()

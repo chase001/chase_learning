@@ -9,9 +9,9 @@ class OrderManageCreate(BaseOrderManageService):
 
     def __init__(self, **kwargs):
         super(OrderManageCreate, self).__init__()
-        self.info = "列表推荐创作者或banner"
-        self.uri = "/we/feed/list/recommend"
-        self.method = "get"
+        self.info = "添加优惠券"
+        self.uri = "/coupon/create"
+        self.method = "post"
         self.body = self.Body(**kwargs)
         self.resp = self.Resp()
 

@@ -877,25 +877,44 @@ def json_to_obj(j):
     return json.loads(json.dumps(j), object_hook=to_obj)
 
 
+# if __name__ == "__main__":
+#     # region  序列化
+#     person = BaseObj(name='tt', age=18)
+#     b = BaseObj(can_do='coding')
+#     person.do = b
+#     person.dos = [b]
+#     a_json = obj_to_json(person)
+#     print(a_json)
+#     # endregion
+#
+#     # region 反序列化
+#     person = dict(name='tt',
+#                   age=18,
+#                   do=dict(can_do='coding'),
+#                   dos=[dict(can_do='coding')])
+#     person_obj = json_to_obj(person)
+#     print(person_obj)
+
+    # endregion
+
+
+def get_uuid(s):
+    import hashlib
+    r = hashlib.md5(s.encode('utf-8'))
+    return r.hexdigest()
+
+
 if __name__ == "__main__":
-    # region  序列化
-    person = BaseObj(name='tt', age=18)
-    b = BaseObj(can_do='coding')
-    person.do = b
-    person.dos = [b]
-    a_json = obj_to_json(person)
-    print(a_json)
-    # endregion
-
-    # region 反序列化
-    person = dict(name='tt',
-                  age=18,
-                  do=dict(can_do='coding'),
-                  dos=[dict(can_do='coding')])
-    person_obj = json_to_obj(person)
-    print(person_obj)
-
-    # endregion
+    # print(get_uuid("jfdoajgdo2323432 "))
+    # 1b67da5a559f5494eea3a058435e9bef
+    # 1b67da5a559f5494eea3a058435e9bef
+    s = "coupon_detail_info"
+    s_list = s.split("_")  # ['abc', 'dad']
+    result = s_list[0]
+    for item in s_list[1:]:
+        n = item.capitalize()
+        result = result + n
+    print(result)
 
 
 

@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class PermissionDeleteObj(Baserder):
+class PermissionDeleteObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(PermissionDeleteObj, self).__init__()

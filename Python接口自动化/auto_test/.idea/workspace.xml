@@ -10,24 +10,27 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_demo_test_my_demo.coverage" NAME="pytest for test_demo.test_my_demo Coverage Results" MODIFIED="1573869539941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/auto_test$func.coverage" NAME="func Coverage Results" MODIFIED="1573974558204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/auto_test$func.coverage" NAME="func Coverage Results" MODIFIED="1575790415802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_demo_test_my_demo_params.coverage" NAME="pytest for test_demo.test_my_demo_params Coverage Results" MODIFIED="1573869245803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_id_test_coupon_id_success.coverage" NAME="pytest for test_coupon_id.test_coupon_id_success Coverage Results" MODIFIED="1575789881676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_demo_test_nondestructive.coverage" NAME="pytest for test_demo.test_nondestructive Coverage Results" MODIFIED="1568889167278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_in_test_coupon_create_api_py.coverage" NAME="pytest in test_coupon_create_api.py Coverage Results" MODIFIED="1574004072756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_in_test_coupon_create_api_py__1_.coverage" NAME="pytest in test_coupon_create_api.py (1) Coverage Results" MODIFIED="1574000468805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/auto_test$gen_code_swagger.coverage" NAME="gen_code_swagger Coverage Results" MODIFIED="1574575581023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/scripts" />
+    <SUITE FILE_PATH="coverage/auto_test$gen_code_swagger.coverage" NAME="gen_code_swagger Coverage Results" MODIFIED="1575785193571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/scripts" />
     <SUITE FILE_PATH="coverage/auto_test$func__1_.coverage" NAME="func (1) Coverage Results" MODIFIED="1557218598140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/auto_test$python_baisc_peewee.coverage" NAME="python_baisc_peewee Coverage Results" MODIFIED="1575183283481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_create_time_v2.coverage" NAME="pytest for test_coupon_create_api.test_coupon_create_time_v2 Coverage Results" MODIFIED="1574579364100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_combo_coupon_type_and_user_type.coverage" NAME="pytest for test_coupon_create_api.test_combo_coupon_type_and_user_type Coverage Results" MODIFIED="1574580097841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$update_api_data.coverage" NAME="update_api_data Coverage Results" MODIFIED="1557395826534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/scripts" />
-    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_create_strong_amount_v2.coverage" NAME="pytest for test_coupon_create_api.test_coupon_create_strong_amount_v2 Coverage Results" MODIFIED="1574578988169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_create_strong_amount_v2.coverage" NAME="pytest for test_coupon_create_api.test_coupon_create_strong_amount_v2 Coverage Results" MODIFIED="1575184758261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_create_strong.coverage" NAME="pytest for test_coupon_create_api.test_coupon_create_strong Coverage Results" MODIFIED="1574577892962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_create_amount_v2.coverage" NAME="pytest for test_coupon_create_api.test_coupon_create_amount_v2 Coverage Results" MODIFIED="1574579121418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_create_amount_v2.coverage" NAME="pytest for test_coupon_create_api.test_coupon_create_amount_v2 Coverage Results" MODIFIED="1574911437973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_demo_test_coupon_create_strong.coverage" NAME="pytest for test_demo.test_coupon_create_strong Coverage Results" MODIFIED="1573869175986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_ui_test_nondestructive.coverage" NAME="pytest for test_ui.test_nondestructive Coverage Results" MODIFIED="1568890624353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/auto_test$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1557307227447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/test_sub_service_1/test_front_api" />
     <SUITE FILE_PATH="coverage/auto_test$gen_db_code.coverage" NAME="gen_db_code Coverage Results" MODIFIED="1557815801468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/scripts" />
-    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_compare_other_api.coverage" NAME="pytest for test_coupon_create_api.test_coupon_compare_other_api Coverage Results" MODIFIED="1574584065744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_create_check_amount_success.coverage" NAME="pytest for test_coupon_create_api.test_coupon_create_check_amount_success Coverage Results" MODIFIED="1575703490085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/auto_test$pytest_for_test_coupon_create_api_test_coupon_compare_other_api.coverage" NAME="pytest for test_coupon_create_api.test_coupon_compare_other_api Coverage Results" MODIFIED="1575702267096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-595540822">
@@ -78,63 +81,161 @@
     <session id="1851167480">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
-          <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.4" value="7" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.0" value="15" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="feature" value="5" />
-          <entry key="ini" value="4" />
+          <entry key="html" value="1" />
+          <entry key="ini" value="9" />
           <entry key="pip" value="1" />
-          <entry key="py" value="153" />
-          <entry key="txt" value="10" />
+          <entry key="py" value="271" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Cucumber" value="5" />
-          <entry key="Ini" value="4" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="154" />
+          <entry key="HTML" value="1" />
+          <entry key="Ini" value="9" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="272" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="50" />
-          <entry key="dummy" value="102" />
+          <entry key="dummy" value="115" />
           <entry key="feature" value="96" />
-          <entry key="ini" value="33" />
-          <entry key="py" value="7237" />
-          <entry key="txt" value="537" />
+          <entry key="ini" value="65" />
+          <entry key="py" value="10748" />
+          <entry key="txt" value="689" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="96" />
-          <entry key="Ini" value="33" />
-          <entry key="PLAIN_TEXT" value="639" />
-          <entry key="Python" value="7287" />
+          <entry key="Ini" value="65" />
+          <entry key="PLAIN_TEXT" value="804" />
+          <entry key="Python" value="10798" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_service/api/BaseOrderManageService.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_id.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+              <folding>
+                <element signature="e#1#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_create_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="106" column="23" lean-forward="true" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_service/check/ExpectObj.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
               <folding>
-                <element signature="e#2#73#0" expanded="true" />
-                <marker date="1574582957094" expanded="true" signature="1263:3700" ph="..." />
+                <marker date="1575790730285" expanded="true" signature="56:65" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_service/api/service/coupon_create_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+              <folding>
+                <marker date="1575791427844" expanded="true" signature="330:381" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_case/test_sub_service_1/test_front_api/test_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_sub_service_1/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_service/api/controller/coupon_create.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="e#36#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_service/api/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order_service/db/order_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,14 +252,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tools.</find>
-      <find>SendRequest</find>
-      <find>generate_base_class</find>
-      <find>ObjUtil, CommonBaseObj</find>
-      <find>ObjUtil.__init__(self)</find>
-      <find>def check(self, **kwargs):</find>
-      <find>conf_path</find>
-      <find>Config</find>
       <find>self.endDate</find>
       <find>Resp(ObjUtil)</find>
       <find>tools.now()</find>
@@ -173,7 +266,6 @@
       <find>API_REQUEST</find>
       <find>request</find>
       <find>generate_resp_obj</find>
-      <find>pytest</find>
       <find>Node</find>
       <find>requests</find>
       <find>增加</find>
@@ -181,6 +273,15 @@
       <find>tag</find>
       <find>class Node</find>
       <find>pytes</find>
+      <find>quer</find>
+      <find>item.config.option.runxfail</find>
+      <find>fixture_value``</find>
+      <find>pet</find>
+      <find>pytest</find>
+      <find>now()</find>
+      <find>def now(</find>
+      <find>DateTimeField</find>
+      <find>= BigAutoField()</find>
     </findStrings>
     <replaceStrings>
       <replace>BaseObj</replace>
@@ -193,30 +294,13 @@
       <replace>exp_v</replace>
       <replace>err_msg</replace>
       <replace>req</replace>
+      <replace>MyDateTimeField</replace>
+      <replace>= None</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sub_service_1/api/base/demo_base.py" />
-        <option value="$PROJECT_DIR$/conf/api_host.ini" />
-        <option value="$PROJECT_DIR$/common/RedisUtil.py" />
-        <option value="$PROJECT_DIR$/common/mock/MockUtil.py" />
-        <option value="$PROJECT_DIR$/test_case/test_ui_demo/publish_article.feature" />
-        <option value="$PROJECT_DIR$/ui_test/tests/functional/test_publish_article.py" />
-        <option value="$PROJECT_DIR$/ui_test/features/frontend/educa.feature.py" />
-        <option value="$PROJECT_DIR$/ui_test/features/frontend/educa.feature" />
-        <option value="$PROJECT_DIR$/ui_test/tests/functional/scenario_steps.py" />
-        <option value="$PROJECT_DIR$/ui_test/features/frontend/demo.feature" />
-        <option value="$PROJECT_DIR$/ui_test/tests/functional/demo_steps.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
-        <option value="$PROJECT_DIR$/test_case/test_sub_service_1/test_front_api/test_demo.py" />
-        <option value="$PROJECT_DIR$/test_case/test_sub_service_1/test_front_api/ui.py" />
-        <option value="$PROJECT_DIR$/test_case/test_sub_service_1/test_front_api/test_ui.py" />
-        <option value="$PROJECT_DIR$/common/func.py" />
-        <option value="$PROJECT_DIR$/common/scripts/temp_file/CouponCreateObj.py" />
-        <option value="$PROJECT_DIR$/tt_order_service/api/controller/demo_base.py" />
-        <option value="$PROJECT_DIR$/tt_order_service/api/BaseCouponService.py" />
         <option value="$PROJECT_DIR$/tt_order_service/api/controller/CouponCreate.py" />
         <option value="$PROJECT_DIR$/tt_order_service/api/service/CouponCreateApi.py" />
         <option value="$PROJECT_DIR$/test_case/test_coupon_service/test_demo.py" />
@@ -224,7 +308,6 @@
         <option value="$PROJECT_DIR$/test_case/test_coupon_service/__init__.py" />
         <option value="$PROJECT_DIR$/tt_order_service/api/__init__.py" />
         <option value="$PROJECT_DIR$/tt_order_service/api/service/coupon_create_api.py" />
-        <option value="$PROJECT_DIR$/order_service/api/__init__.py" />
         <option value="$PROJECT_DIR$/order_service/api/service/admin_login_api.py" />
         <option value="$PROJECT_DIR$/test_case/func.py" />
         <option value="$PROJECT_DIR$/order_service/__init__.py" />
@@ -236,19 +319,39 @@
         <option value="$PROJECT_DIR$/common/RequestUtil.py" />
         <option value="$PROJECT_DIR$/venv/lib/python3.7/site-packages/_pytest/nodes.py" />
         <option value="$PROJECT_DIR$/common/scripts/lib/CodeMode.py" />
-        <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/common/scripts/gen_code_swagger.py" />
         <option value="$PROJECT_DIR$/common/scripts/service/CmsPrefrenceAreaController/PrefrenceAreaListAll.py" />
         <option value="$PROJECT_DIR$/common/scripts/controller/CmsPrefrenceAreaController/PrefrenceAreaListAllObj.py" />
         <option value="$PROJECT_DIR$/order_service/api/controller/coupon_create.py" />
         <option value="$PROJECT_DIR$/order_service/api/BaseOrderManageService.py" />
-        <option value="$PROJECT_DIR$/order_service/api/service/coupon_create_api.py" />
         <option value="$PROJECT_DIR$/test_case/conftest.py" />
         <option value="$PROJECT_DIR$/common/TestHome.py" />
         <option value="$PROJECT_DIR$/order_service/data/dynamic.py" />
         <option value="$PROJECT_DIR$/order_service/data/business.py" />
-        <option value="$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_create_api.py" />
         <option value="$PROJECT_DIR$/common/ObjAssert.py" />
+        <option value="$PROJECT_DIR$/db.py" />
+        <option value="$PROJECT_DIR$/conf/mysql.ini" />
+        <option value="$PROJECT_DIR$/order_service/db/model.py" />
+        <option value="$PROJECT_DIR$/common/db/func.py" />
+        <option value="$PROJECT_DIR$/python_baisc_meta.py" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/python_baisc_peewee.py" />
+        <option value="$PROJECT_DIR$/common/db/my_db.py" />
+        <option value="$PROJECT_DIR$/common/db/PeeweeUtil.py" />
+        <option value="$PROJECT_DIR$/order_service/data/status.py" />
+        <option value="$PROJECT_DIR$/common/scripts/gen_code_swagger.py" />
+        <option value="$PROJECT_DIR$/test_case/test_sub_service_1/test_front_api/test_demo.py" />
+        <option value="$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_create_api.py" />
+        <option value="$PROJECT_DIR$/order_service/api/controller/CouponIdObj.py" />
+        <option value="$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_id.py" />
+        <option value="$PROJECT_DIR$/conf/conf.py" />
+        <option value="$PROJECT_DIR$/order_service/check/OrderPWUtil.py" />
+        <option value="$PROJECT_DIR$/common/db/MyFields.py" />
+        <option value="$PROJECT_DIR$/order_service/db/order_model.py" />
+        <option value="$PROJECT_DIR$/common/func.py" />
+        <option value="$PROJECT_DIR$/order_service/api/service/CouponId.py" />
+        <option value="$PROJECT_DIR$/order_service/check/ExpectObj.py" />
+        <option value="$PROJECT_DIR$/order_service/api/__init__.py" />
+        <option value="$PROJECT_DIR$/order_service/api/service/coupon_create_api.py" />
       </list>
     </option>
   </component>
@@ -258,11 +361,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="41" />
-    <option name="y" value="52" />
-    <option name="width" value="1301" />
-    <option name="height" value="783" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="50" />
+    <option name="width" value="1386" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -279,18 +381,20 @@
             <path>
               <item name="auto_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto_test" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="auto_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="auto_test" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="auto_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="auto_test" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
-              <item name="test_coupon_service" type="462c0819:PsiDirectoryNode" />
+              <item name="test_sub_service_1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="test_sub_service_1" type="462c0819:PsiDirectoryNode" />
+              <item name="test_front_api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +408,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -315,11 +419,11 @@
       <recent name="$PROJECT_DIR$/common/scripts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test_case/test_coupon_service" />
       <recent name="$PROJECT_DIR$/order_service/api/service" />
       <recent name="$PROJECT_DIR$/order_service/api/controller" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tt_order_service/api/service" />
-      <recent name="$PROJECT_DIR$/test_case" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,7 +438,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_coupon_create_api.test_coupon_compare_other_api">
+  <component name="RunManager" selected="Python.func">
+    <configuration name="func" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/func.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gen_code_swagger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/scripts/gen_code_swagger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -349,22 +497,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_coupon_create_api.test_combo_coupon_type_and_user_type" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_coupon_create_api.test_combo_coupon_type_and_user_type&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_coupon_create_api.test_coupon_compare_other_api" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -383,7 +515,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_coupon_create_api.test_coupon_create_amount_v2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_coupon_create_api.test_coupon_create_check_amount_success" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -395,11 +527,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_coupon_create_api.test_coupon_create_amount_v2&quot;" />
+      <option name="_new_target" value="&quot;test_coupon_create_api.test_coupon_create_check_amount_success&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_coupon_create_api.test_coupon_create_strong_amount_v2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_coupon_id.test_coupon_id_success" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,40 +543,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_coupon_create_api.test_coupon_create_strong_amount_v2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_coupon_create_api.test_coupon_create_time_v2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_coupon_create_api.test_coupon_create_time_v2&quot;" />
+      <option name="_new_target" value="&quot;test_coupon_id.test_coupon_id_success&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_amount_v2" />
-      <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_time_v2" />
-      <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_strong_amount_v2" />
-      <item itemvalue="Python tests.pytest for test_coupon_create_api.test_combo_coupon_type_and_user_type" />
       <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_compare_other_api" />
+      <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_check_amount_success" />
+      <item itemvalue="Python.gen_code_swagger" />
+      <item itemvalue="Python tests.pytest for test_coupon_id.test_coupon_id_success" />
+      <item itemvalue="Python.func" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.func" />
+        <item itemvalue="Python tests.pytest for test_coupon_id.test_coupon_id_success" />
+        <item itemvalue="Python.gen_code_swagger" />
+        <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_check_amount_success" />
         <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_compare_other_api" />
-        <item itemvalue="Python tests.pytest for test_coupon_create_api.test_combo_coupon_type_and_user_type" />
-        <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_time_v2" />
-        <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_amount_v2" />
-        <item itemvalue="Python tests.pytest for test_coupon_create_api.test_coupon_create_strong_amount_v2" />
       </list>
     </recent_temporary>
   </component>
@@ -462,35 +578,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_create_strong_amount_v2 - 2019.11.24 at 15h 03m 17s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_create_strong_amount_v2" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 14h 57m 25s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_create_amount_v2 - 2019.11.24 at 15h 05m 29s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_create_amount_v2" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 14h 59m 04s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_create_time_v2 - 2019.11.24 at 15h 09m 32s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_create_time_v2" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 14h 59m 36s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_combo_coupon_type_and_user_type - 2019.11.24 at 15h 21m 57s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_combo_coupon_type_and_user_type" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 15h 06m 34s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_compare_other_api - 2019.11.24 at 15h 44m 03s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_compare_other_api" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 15h 06m 45s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_compare_other_api - 2019.11.24 at 15h 47m 00s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_compare_other_api" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 15h 14m 32s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_compare_other_api - 2019.11.24 at 16h 24m 49s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_compare_other_api" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 15h 20m 31s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_compare_other_api - 2019.11.24 at 16h 26m 15s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_compare_other_api" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 15h 20m 42s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_compare_other_api - 2019.11.24 at 16h 27m 42s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_compare_other_api" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 15h 24m 09s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_coupon_create_api_test_coupon_compare_other_api - 2019.11.24 at 16h 27m 49s.xml">
-      <configuration name="pytest for test_coupon_create_api.test_coupon_compare_other_api" configurationId="tests" />
+    <history-entry file="pytest_for_test_coupon_id_test_coupon_id_success - 2019.12.08 at 15h 25m 53s.xml">
+      <configuration name="pytest for test_coupon_id.test_coupon_id_success" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -503,16 +619,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="52" width="1301" height="783" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25019857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33375797" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5463768" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51920694" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.330855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5315985" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32920793" />
@@ -520,8 +636,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007194" side_tool="true" weight="0.32920793" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928057" weight="0.45147058" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3514706" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928057" weight="0.32589838" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3502994" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -572,9 +688,64 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/order_service/api/service/coupon_create_api.py</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>88</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_baisc_peewee.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -589,194 +760,76 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>compare_obj.resp</expression-string>
+        <expression-string>item.upper()
+print(item)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>obj</expression-string>
+        <expression-string>item.upper()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>vars(obj).items()</expression-string>
+        <expression-string>coupon_detail</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>api_obj.resp</expression-string>
+        <expression-string>exp_obj.startTime</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>assert_obj.is_equal(exp_obj=compare_obj.resp, act_obj=api_obj.resp)</expression-string>
+        <expression-string>exp_obj.startTime.strftime(format=f)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>my_demo_api.send_request()</expression-string>
+        <expression-string>exp_obj.startTime.</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>my_demo_api</expression-string>
+        <expression-string>datetime.datetime.strptime(exp_obj.startTime, f)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>log</expression-string>
+        <expression-string>ObjAssert().is_equal(exp_obj=exp_obj, act_obj=self.resp.data, is_toggle=False)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>compare_obj</expression-string>
+        <expression-string>exp_obj</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/order_service/api/service/admin_login_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/api/controller/admin_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/auto_test/venv/lib/python3.7/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="111" column="48" lean-forward="true" selection-start-line="111" selection-start-column="48" selection-end-line="111" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/auto_test/venv/lib/python3.7/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/auto_test/venv/lib/python3.7/site-packages/retrying.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/temp_file/BrandUpdateFactoryStatusObj.py" />
-    <entry file="file://$PROJECT_DIR$/common/db/MyFields.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="74" column="17" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/db/PeeweeUtil.py">
+    <entry file="file://$PROJECT_DIR$/order_service/db/model.py" />
+    <entry file="file://$PROJECT_DIR$/test_case/test_coupon_service/report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/update_api_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/objects.py">
+    <entry file="file://$PROJECT_DIR$/test_case/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="133">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/RabbitmqUtil.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/RedisUtil.py">
+    <entry file="file://$PROJECT_DIR$/common/db/func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="177">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/api_host.ini">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-2018054789/_functools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend-lib/para_tool/parameterized/parameterized.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="383" column="38" selection-start-line="383" selection-start-column="38" selection-end-line="383" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/gen_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/mysql.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/auto_test/venv/lib/python3.7/site-packages/_pytest/assertion/rewrite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_coupon_create_api.py" />
-    <entry file="file://$PROJECT_DIR$/venv/bin/pip">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/db/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="214">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -787,112 +840,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/db/my_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/service/AdminId.py" />
-    <entry file="file://$PROJECT_DIR$/common/scripts/lib/CodeMode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/lib/OriginData.py">
+    <entry file="file://$PROJECT_DIR$/common/objects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="6" />
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/gen_db_code.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/peewee.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="110" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="110" />
+        <state relative-caret-position="170">
+          <caret line="1990" column="8" selection-start-line="1990" selection-end-line="1991" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/RetryUtil.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/_pytest/nodes.py">
+    <entry file="file://$PROJECT_DIR$/order_service/data/status.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/service/CmsPrefrenceAreaController/PrefrenceAreaListAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#1#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/controller/CmsPrefrenceAreaController/PrefrenceAreaListAllObj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <element signature="e#1#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/scripts/gen_code_swagger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="616" column="11" lean-forward="true" selection-start-line="616" selection-start-column="11" selection-end-line="616" selection-end-column="11" />
-          <folding>
-            <element signature="e#22#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="876" column="14" selection-start-line="876" selection-start-column="14" selection-end-line="876" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#305#693#0" />
-            <marker date="1573828811264" expanded="true" signature="25204:25290" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/RequestUtil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/api/BaseOrderManageService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/log/Logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        <state relative-caret-position="189">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/db/PeeweeUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/db/my_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/api_host.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_baisc_peewee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/TestHome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/SortUtil.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extend-lib/para_tool/parameterized/parameterized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -903,89 +916,255 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/myparam-1.0-py3.7.egg/parameterized/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="677" column="8" selection-start-line="677" selection-start-column="8" selection-end-line="677" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/scripts/controller/CmsPrefrenceAreaController/PrefrenceAreaListAllObj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/scripts/service/CmsPrefrenceAreaController/PrefrenceAreaListAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/scripts/controller/SmsCouponController/CouponListObj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/scripts/controller/SmsCouponController/CouponIdObj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/scripts/gen_code_swagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="610" column="32" selection-start-line="610" selection-start-column="19" selection-end-line="610" selection-end-column="32" />
+          <folding>
+            <element signature="e#22#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/controller/admin_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/service/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/controller/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/service/admin_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-end-line="29" selection-end-column="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/mysql.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/RequestUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/controller/CouponIdObj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#1#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/ObjAssert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="913" column="27" lean-forward="true" selection-start-line="913" selection-start-column="27" selection-end-line="913" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/db/MyFields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#74#998#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/service/CouponId.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#1#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/check/OrderPWUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/db/order_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/BaseOrderManageService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="e#1#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_create_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="106" column="23" lean-forward="true" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/order_service/api/controller/coupon_create.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="e#36#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/order_service/check/ExpectObj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding>
+            <marker date="1575790730285" expanded="true" signature="56:65" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/order_service/api/service/coupon_create_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="301">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
           <folding>
-            <marker date="1574578967799" expanded="true" signature="1137:1311" ph="..." />
-            <marker date="1574578967799" expanded="true" signature="1306:1311" ph="..." />
+            <marker date="1575791427844" expanded="true" signature="330:381" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/conftest.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_sub_service_1/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="218">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_sub_service_1/test_front_api/test_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <marker date="1574060478595" expanded="true" signature="665:668" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/TestHome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <marker date="1574581326545" expanded="true" signature="121:126" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/ObjAssert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/data/status.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/data/dynamic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order_service/data/business.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_coupon_service/test_coupon_create_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-          <folding>
-            <element signature="e#2#73#0" expanded="true" />
-            <marker date="1574582957094" expanded="true" signature="1263:3700" ph="..." />
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>

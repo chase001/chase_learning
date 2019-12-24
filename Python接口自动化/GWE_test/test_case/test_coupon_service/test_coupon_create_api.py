@@ -7,7 +7,6 @@ from common.func import now, fill_in_obj_from_obj
 
 
 
-9
 # pytest风格 也可以使用py自带的参数化库
 # 运行这个用例需要提供redis地址修改common中的RedisUtil配置，否则会连不上redis卡住
 # def test_my_demo(my_demo_api, my_demo_mock_api):  # pytest fixture风格
@@ -24,7 +23,21 @@ from common.func import now, fill_in_obj_from_obj
 
 
 # parameterized为第三方开源库，对源代码有做修改已支持py4.0框架以及args or kwargs两种模式
-# 健壮性用例
+@parameterized([
+    param(dict(amount=-1), msg="验证该接口amount=-1时报错", code=10005),
+    param(dict(amount=None), msg="验证该接口amount=None时报错", code=10005),
+    param(dict(amount="abc"), msg="验证该接口amount=\"abc\"时报错", code=10005),
+    param(dict(amount=100), msg="验证该接口amount=100时成功"),
+    param(dict(amount=100.99), msg="验证该接口amount=100.99时成功"),
+    param(dict(amount=100.1), msg="验证该接口amount=100.1时成功"),
+])  # 第三方库参数化风格
+@case_model()
+def test_coupon_create_check_amount_success(req_data={}, msg=None, code=200):
+    log.step(msg)
+    api_obj = CouponCreateApi(status=code, **req_data)
+    return api_obj
+
+
 @parameterized([
     # param(111, amount=-1, msg="验证amount=-1返回错误码xxxx"),
     param(req_data=dict(amount=-1), msg="验证amount=-1返回错误码xxxx", code=10005),

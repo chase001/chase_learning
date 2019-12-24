@@ -9,9 +9,26 @@ import pytest
 def test_my_demo(my_demo_api, my_demo_mock_api):  # pytest fixture风格
     my_demo_mock_api.resp.data.age = 28
     my_demo_api.mock(my_demo_mock_api)
-    my_demo_api.body.args_2 = 'cuirong'
+    my_demo_api.body.args_2 = 'test'
     my_demo_api.send_request()
     my_demo_api.check()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # parameterized为第三方开源库，对源代码有做修改已支持py4.0框架以及args or kwargs两种模式

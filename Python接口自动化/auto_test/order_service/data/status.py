@@ -3,7 +3,7 @@
 
 class ConsStatusCode(object):
     """response 状态码"""
-    OK = 0
+    OK = 200
     ServiceWrong = -50000  # 服务错误
     TypeWrong = -40400  # 类型错误
     TypeWrong9449474 = -9449474  # 类型错误

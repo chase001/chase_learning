@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class PermissionUpdateIdObj(Baserder):
+class PermissionUpdateIdObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(PermissionUpdateIdObj, self).__init__()

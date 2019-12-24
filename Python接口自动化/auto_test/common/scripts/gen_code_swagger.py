@@ -606,7 +606,7 @@ class Print(object):
 
 if __name__ == '__main__':
     # base_name=基类的名称,会自动拼接Base+xxxx
-    p = Print(url='http://144.34.200.237:8080/v2/api-docs',
+    p = Print(url='http://144.34.200.237:8080/v2/api-docs',  # 这里添加swagger接口地址
               base_name="Order",
               dir="order_service")
 

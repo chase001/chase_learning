@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class MemberLevelListObj(Baserder):
+class MemberLevelListObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(MemberLevelListObj, self).__init__()

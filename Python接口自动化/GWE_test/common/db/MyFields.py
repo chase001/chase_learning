@@ -40,7 +40,6 @@ class MyBitField(Field):
         else:
             return True
 
-
 #MyBitField = MyBitField()
 
 
@@ -65,7 +64,7 @@ class MyDateTimeField(DateTimeField):
         return value
 
     def __format_date_time(self, value):
-        return datetime.datetime.strftime(value, "%Y-%m-%dT%H:%M:%S+0800")
+        return datetime.datetime.strftime(value, "%Y-%m-%dT%H:%M:%S.000+0000")
 
 
 class UnknownField(object):

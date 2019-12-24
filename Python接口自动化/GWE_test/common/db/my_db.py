@@ -64,7 +64,7 @@ class MyDB(object):
         支持以上两种方式
         """
         self.init_where(where=where, **kwargs)
-        self.query = self.query.where(self.where)
+        self.query = self.query.where(self.where)  # ModelSelect
         return self
 
     def create_query(self):

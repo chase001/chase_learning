@@ -3,7 +3,7 @@ from common.objects import BaseObj
 from order_service.api import *
                 
 
-class HomeBrandListObj(Baserder):
+class HomeBrandListObj(BaseOrder):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(HomeBrandListObj, self).__init__()
