@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        p {
+            padding: 5px;
+        }
+
+        #main {
+            margin-top: 20px;
+        }
+
+        .pass {
+            color: green;
+        }
+
+        .failure {
+            color: red;
+        }
+
+        .error {
+            color: orange;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>测试报告</h1>
+    <div class="row">
+        <div class="col-xs-6">
+
+            <h2 class="text-capitalize">{{ title }}</h2>
+            <p class='attribute'><strong>开始时间: </strong>{{ start_time }}</p>
+            <p class='attribute'><strong>结束时间: </strong>{{ duration }}</p>
+            <p class='attribute' style="float: left;"><strong>测试结果: </strong>case总数: {{ total_test }} </p>
+            <p id="success" style="float:left;color: green">通过：{{ success }}</p>
+            <p id="failed" style="float:left; color: red;">失败：{{ failed }}</p>
+            <p id="error" style="float:left; color: orange;">错误：{{ error }}</p>
+            <p id="skip" style="color: deepskyblue">跳过：{{ skip }}</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-md-10">
+            <table class='table table-hover table-responsive'>
+                <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>用例名称</th>
+                    <th>用例描述</th>
+                    <th>状态</th>
+                    <th>耗时</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for case in test_cases_list %}
+                    <tr class="{{ case['type'] }}">
+                        <td class="col-xs-2">{{ loop.index }}</td>
+                        <td class="col-xs-5">{{ case['casename'] }}</td>
+                        <td class="col-xs-4">{{ case['desc'] }}</td>
+                        <td class="col-xs-3">
+                            {% if "pass" == case['type'] %}
+                                <span>
+                            {{ case['type'] }}
+                        </span>
+                            {% endif %}
+
+                            {% if "pass" != case['type'] %}
+                                <button class="btn btn-default btn-xs view" id="{{ 'p-'+case['id'] }}"
+                                        style="color: red">
+                                    {{ case['type'] }}
+                                </button>
+                            {% endif %}
+                        </td>
+                        <td class="col-xs-1">{{ case['time'] }}s</td>
+
+                    </tr>
+                    {% if "pass" != case['type'] %}
+                        <tr style="display:none;color: royalblue" id="{{ case['id'] }}" class="b">
+                            <td class="col-xs-2">详情:</td>
+                            <td class="col-xs-5">
+                                <p><strong>{{ case["error"] }}</strong></p>
+                            </td>
+                            <td class="col-xs-2"></td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("button").click(function () {
+            var p = this.id;
+            var tmp = p.split("-")[1];
+            $("#" + tmp + "").toggle();
+        });
+    });
+</script>
+</body>
+</html>

@@ -8,7 +8,7 @@ class SubjectListObj(BaseOrder):
     def __init__(self, **kwargs):
         super(SubjectListObj, self).__init__()
         self.info = "根据专题名称分页获取专题"
-        self.uri = "/subject/list"
+        self.uri = "/resubject/list"
         self.method = "get"
         self.body = self.Body(**kwargs)
         self.resp = self.Resp()

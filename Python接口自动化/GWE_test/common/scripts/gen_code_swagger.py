@@ -603,24 +603,35 @@ class Print(object):
                                                                                           ))
 
 
+# if __name__ == '__main__':
+#     # base_name=基类的名称,会自动拼接Base+xxxx
+#     p = Print(url='http://144.34.200.237:8080/v2/api-docs',  # 这里添加swagger接口地址
+#               base_name="Order",
+#               dir="order_service")
+#
+#     # 关于测试数据生成的脚本信息如下:
+#     # 指定请取消下面的注释方法
+#     p.analyze_test_data()
+#
+#     # 这里是华丽的分割线=======================================囧
+#
+#     # 关于用例生成的脚本信息如下:
+#     # 指定请取消下面的注释方法
+#     # p.print_test_case()
+#     # 1. 如果要调整生成用例的默认配置,请搜索方法名get_param_test_value进行修改,该方法是根据type和normal来生成正逆用例
+#     # 2. 打印某个接口下某个参数的用例方法print_the_api_only_param_test_case
+
+
+#接口用eolinker管理的
 if __name__ == '__main__':
     # base_name=基类的名称,会自动拼接Base+xxxx
     p = Print(url='http://144.34.200.237:8080/v2/api-docs',  # 这里添加swagger接口地址
-              base_name="Order",
-              dir="order_service")
+              base_name="GWE",
+              dir="gwe_service")
 
     # 关于测试数据生成的脚本信息如下:
     # 指定请取消下面的注释方法
     p.analyze_test_data()
-
-    # 这里是华丽的分割线=======================================囧
-
-    # 关于用例生成的脚本信息如下:
-    # 指定请取消下面的注释方法
-    # p.print_test_case()
-    # 1. 如果要调整生成用例的默认配置,请搜索方法名get_param_test_value进行修改,该方法是根据type和normal来生成正逆用例
-    # 2. 打印某个接口下某个参数的用例方法print_the_api_only_param_test_case
-
 
 
 
