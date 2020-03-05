@@ -1,0 +1,6 @@
+#a.py
+
+data = [1,2,3]
+
+def run():
+    print(data)
