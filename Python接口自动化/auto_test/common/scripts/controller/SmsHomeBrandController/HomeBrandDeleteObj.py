@@ -1,9 +1,9 @@
 
 from common.objects import BaseObj
-from order_service.api import *
+from Gwe_service.api import *
                 
 
-class HomeBrandDeleteObj(BaseOrder):
+class HomeBrandDeleteObj(BaseGwe):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(HomeBrandDeleteObj, self).__init__()

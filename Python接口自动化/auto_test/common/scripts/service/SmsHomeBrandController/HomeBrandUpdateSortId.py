@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeBrandController.HomeBrandUpdateSortIdObj import HomeBrandUpdateSortIdObj as TemplateController
+from Gwe_service.api.controller.SmsHomeBrandController.HomeBrandUpdateSortIdObj import HomeBrandUpdateSortIdObj as TemplateController
 from common.func import *
 
 class HomeBrandUpdateSortId(TemplateController):

@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeAdvertiseController.HomeAdvertiseDeleteObj import HomeAdvertiseDeleteObj as TemplateController
+from Gwe_service.api.controller.SmsHomeAdvertiseController.HomeAdvertiseDeleteObj import HomeAdvertiseDeleteObj as TemplateController
 from common.func import *
 
 class HomeAdvertiseDelete(TemplateController):

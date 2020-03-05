@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeAdvertiseController.HomeAdvertiseListObj import HomeAdvertiseListObj as TemplateController
+from Gwe_service.api.controller.SmsHomeAdvertiseController.HomeAdvertiseListObj import HomeAdvertiseListObj as TemplateController
 from common.func import *
 
 class HomeAdvertiseList(TemplateController):

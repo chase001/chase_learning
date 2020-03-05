@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeBrandController.HomeBrandDeleteObj import HomeBrandDeleteObj as TemplateController
+from Gwe_service.api.controller.SmsHomeBrandController.HomeBrandDeleteObj import HomeBrandDeleteObj as TemplateController
 from common.func import *
 
 class HomeBrandDelete(TemplateController):

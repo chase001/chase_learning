@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsPermissionController.PermissionUpdateIdObj import PermissionUpdateIdObj as TemplateController
+from Gwe_service.api.controller.UmsPermissionController.PermissionUpdateIdObj import PermissionUpdateIdObj as TemplateController
 from common.func import *
 
 class PermissionUpdateId(TemplateController):

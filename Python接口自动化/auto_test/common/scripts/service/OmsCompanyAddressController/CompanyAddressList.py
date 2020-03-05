@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsCompanyAddressController.CompanyAddressListObj import CompanyAddressListObj as TemplateController
+from Gwe_service.api.controller.OmsCompanyAddressController.CompanyAddressListObj import CompanyAddressListObj as TemplateController
 from common.func import *
 
 class CompanyAddressList(TemplateController):

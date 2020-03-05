@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsPermissionController.PermissionCreateObj import PermissionCreateObj as TemplateController
+from Gwe_service.api.controller.UmsPermissionController.PermissionCreateObj import PermissionCreateObj as TemplateController
 from common.func import *
 
 class PermissionCreate(TemplateController):

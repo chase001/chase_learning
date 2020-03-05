@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsSkuStockController.SkuPidObj import SkuPidObj as TemplateController
+from Gwe_service.api.controller.PmsSkuStockController.SkuPidObj import SkuPidObj as TemplateController
 from common.func import *
 
 class SkuPid(TemplateController):

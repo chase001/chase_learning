@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderSettingController.OrderSettingUpdateIdObj import OrderSettingUpdateIdObj as TemplateController
+from Gwe_service.api.controller.OmsOrderSettingController.OrderSettingUpdateIdObj import OrderSettingUpdateIdObj as TemplateController
 from common.func import *
 
 class OrderSettingUpdateId(TemplateController):

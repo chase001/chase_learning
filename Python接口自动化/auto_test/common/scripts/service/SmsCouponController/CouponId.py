@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsCouponController.CouponIdObj import CouponIdObj as TemplateController
+from Gwe_service.api.controller.SmsCouponController.CouponIdObj import CouponIdObj as TemplateController
 from common.func import *
 
 class CouponId(TemplateController):

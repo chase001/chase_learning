@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsMemberLevelController.MemberLevelListObj import MemberLevelListObj as TemplateController
+from Gwe_service.api.controller.UmsMemberLevelController.MemberLevelListObj import MemberLevelListObj as TemplateController
 from common.func import *
 
 class MemberLevelList(TemplateController):

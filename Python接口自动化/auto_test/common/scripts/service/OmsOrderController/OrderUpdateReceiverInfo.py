@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderController.OrderUpdateReceiverInfoObj import OrderUpdateReceiverInfoObj as TemplateController
+from Gwe_service.api.controller.OmsOrderController.OrderUpdateReceiverInfoObj import OrderUpdateReceiverInfoObj as TemplateController
 from common.func import *
 
 class OrderUpdateReceiverInfo(TemplateController):

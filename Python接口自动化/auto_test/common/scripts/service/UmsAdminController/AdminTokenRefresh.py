@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsAdminController.AdminTokenRefreshObj import AdminTokenRefreshObj as TemplateController
+from Gwe_service.api.controller.UmsAdminController.AdminTokenRefreshObj import AdminTokenRefreshObj as TemplateController
 from common.func import *
 
 class AdminTokenRefresh(TemplateController):

@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsProductController.ProductUpdateVerifyStatusObj import ProductUpdateVerifyStatusObj as TemplateController
+from Gwe_service.api.controller.PmsProductController.ProductUpdateVerifyStatusObj import ProductUpdateVerifyStatusObj as TemplateController
 from common.func import *
 
 class ProductUpdateVerifyStatus(TemplateController):

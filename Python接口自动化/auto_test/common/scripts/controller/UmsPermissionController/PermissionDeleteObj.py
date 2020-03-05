@@ -1,9 +1,9 @@
 
 from common.objects import BaseObj
-from order_service.api import *
+from Gwe_service.api import *
                 
 
-class PermissionDeleteObj(BaseOrder):
+class PermissionDeleteObj(BaseGwe):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(PermissionDeleteObj, self).__init__()

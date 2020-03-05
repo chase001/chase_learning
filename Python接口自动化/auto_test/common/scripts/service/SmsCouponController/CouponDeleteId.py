@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsCouponController.CouponDeleteIdObj import CouponDeleteIdObj as TemplateController
+from Gwe_service.api.controller.SmsCouponController.CouponDeleteIdObj import CouponDeleteIdObj as TemplateController
 from common.func import *
 
 class CouponDeleteId(TemplateController):

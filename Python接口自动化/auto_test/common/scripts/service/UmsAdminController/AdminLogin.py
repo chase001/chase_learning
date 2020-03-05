@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsAdminController.AdminLoginObj import AdminLoginObj as TemplateController
+from Gwe_service.api.controller.UmsAdminController.AdminLoginObj import AdminLoginObj as TemplateController
 from common.func import *
 
 class AdminLogin(TemplateController):

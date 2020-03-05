@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OssController.AliyunOssCallbackObj import AliyunOssCallbackObj as TemplateController
+from Gwe_service.api.controller.OssController.AliyunOssCallbackObj import AliyunOssCallbackObj as TemplateController
 from common.func import *
 
 class AliyunOssCallback(TemplateController):

@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsRoleController.RoleListObj import RoleListObj as TemplateController
+from Gwe_service.api.controller.UmsRoleController.RoleListObj import RoleListObj as TemplateController
 from common.func import *
 
 class RoleList(TemplateController):

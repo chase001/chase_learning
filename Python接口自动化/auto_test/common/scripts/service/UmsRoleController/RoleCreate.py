@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsRoleController.RoleCreateObj import RoleCreateObj as TemplateController
+from Gwe_service.api.controller.UmsRoleController.RoleCreateObj import RoleCreateObj as TemplateController
 from common.func import *
 
 class RoleCreate(TemplateController):

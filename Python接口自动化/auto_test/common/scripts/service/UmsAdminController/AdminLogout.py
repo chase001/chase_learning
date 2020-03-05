@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsAdminController.AdminLogoutObj import AdminLogoutObj as TemplateController
+from Gwe_service.api.controller.UmsAdminController.AdminLogoutObj import AdminLogoutObj as TemplateController
 from common.func import *
 
 class AdminLogout(TemplateController):

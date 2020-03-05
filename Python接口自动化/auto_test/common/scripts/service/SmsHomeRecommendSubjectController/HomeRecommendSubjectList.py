@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeRecommendSubjectController.HomeRecommendSubjectListObj import HomeRecommendSubjectListObj as TemplateController
+from Gwe_service.api.controller.SmsHomeRecommendSubjectController.HomeRecommendSubjectListObj import HomeRecommendSubjectListObj as TemplateController
 from common.func import *
 
 class HomeRecommendSubjectList(TemplateController):

@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsBrandController.BrandUpdateIdObj import BrandUpdateIdObj as TemplateController
+from Gwe_service.api.controller.PmsBrandController.BrandUpdateIdObj import BrandUpdateIdObj as TemplateController
 from common.func import *
 
 class BrandUpdateId(TemplateController):

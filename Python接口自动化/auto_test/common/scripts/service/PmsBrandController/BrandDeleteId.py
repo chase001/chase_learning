@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsBrandController.BrandDeleteIdObj import BrandDeleteIdObj as TemplateController
+from Gwe_service.api.controller.PmsBrandController.BrandDeleteIdObj import BrandDeleteIdObj as TemplateController
 from common.func import *
 
 class BrandDeleteId(TemplateController):

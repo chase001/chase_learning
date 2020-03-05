@@ -1,9 +1,9 @@
 
 from common.objects import BaseObj
-from order_service.api import *
+from Gwe_service.api import *
                 
 
-class CouponHistoryListObj(BaseOrder):
+class CouponHistoryListObj(BaseGwe):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(CouponHistoryListObj, self).__init__()

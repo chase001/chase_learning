@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsBrandController.BrandListObj import BrandListObj as TemplateController
+from Gwe_service.api.controller.PmsBrandController.BrandListObj import BrandListObj as TemplateController
 from common.func import *
 
 class BrandList(TemplateController):

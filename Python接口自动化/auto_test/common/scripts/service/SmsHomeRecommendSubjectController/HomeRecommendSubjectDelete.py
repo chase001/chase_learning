@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeRecommendSubjectController.HomeRecommendSubjectDeleteObj import HomeRecommendSubjectDeleteObj as TemplateController
+from Gwe_service.api.controller.SmsHomeRecommendSubjectController.HomeRecommendSubjectDeleteObj import HomeRecommendSubjectDeleteObj as TemplateController
 from common.func import *
 
 class HomeRecommendSubjectDelete(TemplateController):

@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderController.OrderListObj import OrderListObj as TemplateController
+from Gwe_service.api.controller.OmsOrderController.OrderListObj import OrderListObj as TemplateController
 from common.func import *
 
 class OrderList(TemplateController):

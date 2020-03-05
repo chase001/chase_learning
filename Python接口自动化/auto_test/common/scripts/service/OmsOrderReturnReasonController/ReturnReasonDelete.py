@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderReturnReasonController.ReturnReasonDeleteObj import ReturnReasonDeleteObj as TemplateController
+from Gwe_service.api.controller.OmsOrderReturnReasonController.ReturnReasonDeleteObj import ReturnReasonDeleteObj as TemplateController
 from common.func import *
 
 class ReturnReasonDelete(TemplateController):

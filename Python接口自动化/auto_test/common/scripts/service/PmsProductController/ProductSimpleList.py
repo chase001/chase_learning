@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsProductController.ProductSimpleListObj import ProductSimpleListObj as TemplateController
+from Gwe_service.api.controller.PmsProductController.ProductSimpleListObj import ProductSimpleListObj as TemplateController
 from common.func import *
 
 class ProductSimpleList(TemplateController):

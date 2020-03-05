@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderController.OrderUpdateCloseObj import OrderUpdateCloseObj as TemplateController
+from Gwe_service.api.controller.OmsOrderController.OrderUpdateCloseObj import OrderUpdateCloseObj as TemplateController
 from common.func import *
 
 class OrderUpdateClose(TemplateController):

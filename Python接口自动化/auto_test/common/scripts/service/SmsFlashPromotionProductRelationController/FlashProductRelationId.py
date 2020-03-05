@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsFlashPromotionProductRelationController.FlashProductRelationIdObj import FlashProductRelationIdObj as TemplateController
+from Gwe_service.api.controller.SmsFlashPromotionProductRelationController.FlashProductRelationIdObj import FlashProductRelationIdObj as TemplateController
 from common.func import *
 
 class FlashProductRelationId(TemplateController):

@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsProductController.ProductCreateObj import ProductCreateObj as TemplateController
+from Gwe_service.api.controller.PmsProductController.ProductCreateObj import ProductCreateObj as TemplateController
 from common.func import *
 
 class ProductCreate(TemplateController):

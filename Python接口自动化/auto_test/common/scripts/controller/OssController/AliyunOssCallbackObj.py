@@ -1,9 +1,9 @@
 
 from common.objects import BaseObj
-from order_service.api import *
+from Gwe_service.api import *
                 
 
-class AliyunOssCallbackObj(BaseOrder):
+class AliyunOssCallbackObj(BaseGwe):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(AliyunOssCallbackObj, self).__init__()

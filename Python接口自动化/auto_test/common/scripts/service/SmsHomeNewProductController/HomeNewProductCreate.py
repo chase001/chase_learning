@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeNewProductController.HomeNewProductCreateObj import HomeNewProductCreateObj as TemplateController
+from Gwe_service.api.controller.SmsHomeNewProductController.HomeNewProductCreateObj import HomeNewProductCreateObj as TemplateController
 from common.func import *
 
 class HomeNewProductCreate(TemplateController):

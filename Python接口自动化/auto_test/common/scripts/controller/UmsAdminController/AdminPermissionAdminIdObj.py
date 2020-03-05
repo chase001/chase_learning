@@ -1,9 +1,9 @@
 
 from common.objects import BaseObj
-from order_service.api import *
+from Gwe_service.api import *
                 
 
-class AdminPermissionAdminIdObj(BaseOrder):
+class AdminPermissionAdminIdObj(BaseGwe):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(AdminPermissionAdminIdObj, self).__init__()

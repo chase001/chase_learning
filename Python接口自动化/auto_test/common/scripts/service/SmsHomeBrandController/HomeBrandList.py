@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeBrandController.HomeBrandListObj import HomeBrandListObj as TemplateController
+from Gwe_service.api.controller.SmsHomeBrandController.HomeBrandListObj import HomeBrandListObj as TemplateController
 from common.func import *
 
 class HomeBrandList(TemplateController):

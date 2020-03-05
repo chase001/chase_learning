@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OssController.AliyunOssPolicyObj import AliyunOssPolicyObj as TemplateController
+from Gwe_service.api.controller.OssController.AliyunOssPolicyObj import AliyunOssPolicyObj as TemplateController
 from common.func import *
 
 class AliyunOssPolicy(TemplateController):

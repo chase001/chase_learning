@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsAdminController.AdminPermissionUpdateObj import AdminPermissionUpdateObj as TemplateController
+from Gwe_service.api.controller.UmsAdminController.AdminPermissionUpdateObj import AdminPermissionUpdateObj as TemplateController
 from common.func import *
 
 class AdminPermissionUpdate(TemplateController):

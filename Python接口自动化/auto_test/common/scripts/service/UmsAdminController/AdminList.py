@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsAdminController.AdminListObj import AdminListObj as TemplateController
+from Gwe_service.api.controller.UmsAdminController.AdminListObj import AdminListObj as TemplateController
 from common.func import *
 
 class AdminList(TemplateController):

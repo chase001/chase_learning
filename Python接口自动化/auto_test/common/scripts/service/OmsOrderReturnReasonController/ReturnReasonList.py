@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderReturnReasonController.ReturnReasonListObj import ReturnReasonListObj as TemplateController
+from Gwe_service.api.controller.OmsOrderReturnReasonController.ReturnReasonListObj import ReturnReasonListObj as TemplateController
 from common.func import *
 
 class ReturnReasonList(TemplateController):

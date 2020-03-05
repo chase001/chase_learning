@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderController.OrderUpdateNoteObj import OrderUpdateNoteObj as TemplateController
+from Gwe_service.api.controller.OmsOrderController.OrderUpdateNoteObj import OrderUpdateNoteObj as TemplateController
 from common.func import *
 
 class OrderUpdateNote(TemplateController):

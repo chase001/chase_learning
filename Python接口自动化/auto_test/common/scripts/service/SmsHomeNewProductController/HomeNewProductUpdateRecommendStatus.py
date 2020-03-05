@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsHomeNewProductController.HomeNewProductUpdateRecommendStatusObj import HomeNewProductUpdateRecommendStatusObj as TemplateController
+from Gwe_service.api.controller.SmsHomeNewProductController.HomeNewProductUpdateRecommendStatusObj import HomeNewProductUpdateRecommendStatusObj as TemplateController
 from common.func import *
 
 class HomeNewProductUpdateRecommendStatus(TemplateController):

@@ -53,6 +53,7 @@ def generate_report(test_result, start_time, duration, Title="XXXX接口自动�
 
     # test_cases_list = [success, error, failed, skip]
     main_path = str(__file__).split("Auto")
+
     report_path = main_path[0] + os.sep.join(["Auto", "templates"])
 
     env = Environment(loader=FileSystemLoader(report_path))

@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsRoleController.RoleDeleteObj import RoleDeleteObj as TemplateController
+from Gwe_service.api.controller.UmsRoleController.RoleDeleteObj import RoleDeleteObj as TemplateController
 from common.func import *
 
 class RoleDelete(TemplateController):

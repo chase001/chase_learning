@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsRoleController.RolePermissionUpdateObj import RolePermissionUpdateObj as TemplateController
+from Gwe_service.api.controller.UmsRoleController.RolePermissionUpdateObj import RolePermissionUpdateObj as TemplateController
 from common.func import *
 
 class RolePermissionUpdate(TemplateController):

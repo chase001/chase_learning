@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsAdminController.AdminRoleAdminIdObj import AdminRoleAdminIdObj as TemplateController
+from Gwe_service.api.controller.UmsAdminController.AdminRoleAdminIdObj import AdminRoleAdminIdObj as TemplateController
 from common.func import *
 
 class AdminRoleAdminId(TemplateController):

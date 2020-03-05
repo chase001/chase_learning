@@ -26,12 +26,13 @@ from common.func import now, fill_in_obj_from_obj
 @parameterized([
     param(2, msg="查询普通优惠券详情结果正确"),
 ])  # 第三方库参数化风格
+
+#hw
 @case_model()
 def test_coupon_id_success(coupon_id, msg=None, code=200):
     log.step(msg)
     api_obj = CouponId(coupon_id=coupon_id, status=code)
     return api_obj
-
 
 
 

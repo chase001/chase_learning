@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsProductAttributeCategoryController.ProductAttributeCategoryIdObj import ProductAttributeCategoryIdObj as TemplateController
+from Gwe_service.api.controller.PmsProductAttributeCategoryController.ProductAttributeCategoryIdObj import ProductAttributeCategoryIdObj as TemplateController
 from common.func import *
 
 class ProductAttributeCategoryId(TemplateController):

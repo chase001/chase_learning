@@ -1,5 +1,5 @@
 
-from order_service.api.controller.SmsFlashPromotionSessionController.FlashSessionCreateObj import FlashSessionCreateObj as TemplateController
+from Gwe_service.api.controller.SmsFlashPromotionSessionController.FlashSessionCreateObj import FlashSessionCreateObj as TemplateController
 from common.func import *
 
 class FlashSessionCreate(TemplateController):

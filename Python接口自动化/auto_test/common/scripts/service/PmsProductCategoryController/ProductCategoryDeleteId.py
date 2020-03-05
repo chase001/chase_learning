@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsProductCategoryController.ProductCategoryDeleteIdObj import ProductCategoryDeleteIdObj as TemplateController
+from Gwe_service.api.controller.PmsProductCategoryController.ProductCategoryDeleteIdObj import ProductCategoryDeleteIdObj as TemplateController
 from common.func import *
 
 class ProductCategoryDeleteId(TemplateController):

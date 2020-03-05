@@ -1,5 +1,5 @@
 
-from order_service.api.controller.UmsPermissionController.PermissionDeleteObj import PermissionDeleteObj as TemplateController
+from Gwe_service.api.controller.UmsPermissionController.PermissionDeleteObj import PermissionDeleteObj as TemplateController
 from common.func import *
 
 class PermissionDelete(TemplateController):

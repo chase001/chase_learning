@@ -1,5 +1,5 @@
 
-from order_service.api.controller.PmsProductController.ProductUpdatePublishStatusObj import ProductUpdatePublishStatusObj as TemplateController
+from Gwe_service.api.controller.PmsProductController.ProductUpdatePublishStatusObj import ProductUpdatePublishStatusObj as TemplateController
 from common.func import *
 
 class ProductUpdatePublishStatus(TemplateController):

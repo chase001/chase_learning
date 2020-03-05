@@ -1,9 +1,9 @@
 
 from common.objects import BaseObj
-from order_service.api import *
+from Gwe_service.api import *
                 
 
-class ProductCategoryListWithChildrenObj(BaseOrder):
+class ProductCategoryListWithChildrenObj(BaseGwe):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(ProductCategoryListWithChildrenObj, self).__init__()

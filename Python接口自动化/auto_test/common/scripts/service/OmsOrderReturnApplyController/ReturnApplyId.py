@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderReturnApplyController.ReturnApplyIdObj import ReturnApplyIdObj as TemplateController
+from Gwe_service.api.controller.OmsOrderReturnApplyController.ReturnApplyIdObj import ReturnApplyIdObj as TemplateController
 from common.func import *
 
 class ReturnApplyId(TemplateController):

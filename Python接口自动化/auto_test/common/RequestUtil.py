@@ -203,7 +203,7 @@ class RequestUtil(object):
         r = None
         common_condition = dict(url=self.url, headers=self.headers, timeout=self.timeout)
         if self.method == "get":
-            r = requests.get(**common_condition)
+            r = requests.get(**common_condition,params=json.loads(data))
         elif self.method == "post":
             r = requests.post(**common_condition, data=data, allow_redirects=False)
         elif self.method == "put":

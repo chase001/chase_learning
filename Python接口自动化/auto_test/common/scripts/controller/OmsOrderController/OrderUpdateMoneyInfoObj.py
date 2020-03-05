@@ -1,9 +1,9 @@
 
 from common.objects import BaseObj
-from order_service.api import *
+from Gwe_service.api import *
                 
 
-class OrderUpdateMoneyInfoObj(BaseOrder):
+class OrderUpdateMoneyInfoObj(BaseGwe):
     """api controller obj"""
     def __init__(self, **kwargs):
         super(OrderUpdateMoneyInfoObj, self).__init__()

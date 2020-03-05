@@ -1,5 +1,5 @@
 
-from order_service.api.controller.OmsOrderReturnApplyController.ReturnApplyDeleteObj import ReturnApplyDeleteObj as TemplateController
+from Gwe_service.api.controller.OmsOrderReturnApplyController.ReturnApplyDeleteObj import ReturnApplyDeleteObj as TemplateController
 from common.func import *
 
 class ReturnApplyDelete(TemplateController):
