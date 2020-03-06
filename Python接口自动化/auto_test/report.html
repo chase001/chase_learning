@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 05-Mar-2020 at 21:45:19 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <p>Report generated on 06-Mar-2020 at 22:16:24 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -263,7 +263,7 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.7.0</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 3.87 seconds. </p>
+    <p>1 tests ran in 3.12 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -279,21 +279,20 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">test_case/test_coupon_service/test_coupon_list.py::test_coupon_list_success[1-1-å°ç±³ææºä¸ç¨å¸-0-æ ¹æ®ä¼æ å¸åç§°è·åä¼æ å¸åè¡¨-200]</td>
-          <td class="col-duration">2.40</td>
+          <td class="col-duration">1.58</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">pageSize = 1, pageNum = 1, name = &#x27;小米手机专用券&#x27;, type = 0, msg = &#x27;根据优惠券名称获取优惠券列表&#x27;<br/>code = 200<br/><br/>&gt;   ???<br/><br/>&lt;string&gt;:1: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>common\TestHome.py:31: in wrapper<br/>    api_obj.check()<br/>Gwe_service\api\service\CouponList.py:41: in check<br/>    ObjAssert().is_equal(exp_obj=exp_obj, act_obj=self.resp.data, is_toggle=False, ex=[])<br/>common\ObjAssert.py:57: in is_equal<br/>    check_equal(act_v=self.error_list, exp_v=[], err_msg=&quot;API Test Fail!!!!!!!&quot;)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>act_v = [{&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/pageNum&#x27;}, {&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/pageSize&#x27;}, {&#x27;ac...PageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:id&#x27;, {&#x27;act_value&#x27;: 3, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/id&#x27;}, ...]<br/>exp_v = [], err_msg = &#x27;API Test Fail!!!!!!!&#x27;, only_log_error = False<br/>show_err = False<br/><br/>    def check_equal(act_v, exp_v, err_msg=None, only_log_error=False, show_err=False):<br/>        &quot;&quot;&quot;<br/>            check actual result does match expected or not<br/>            :param string/list act_v<br/>            :param string/list exp_v<br/>            :param string err_msg<br/>            :param boolean only_log_error<br/>        &quot;&quot;&quot;<br/>    <br/>        if err_msg is None:<br/>            err_msg = &quot;断言期望结果:{expectedVal}=实际结果{actualVal}&quot;.format(actualVal=act_v, expectedVal=exp_v)<br/>        elif show_err is True:<br/>            err_msg += &quot;, 期望结果: {expectedVal},实际结果: {actualVal}&quot;.format(actualVal=act_v,<br/>                                                                        expectedVal=exp_v)<br/>    <br/>        if act_v != exp_v:<br/>            log.error(err_msg)<br/>            if only_log_error:<br/>                return False<br/>            else:<br/>&gt;               raise AssertionError(err_msg + &quot; 失败&quot;)<br/><span class="error">E               AssertionError: API Test Fail!!!!!!! 失败</span><br/><br/>common\func.py:194: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>Logger.py                   68 INFO     根据优惠券名称获取优惠券列表
+            <div class="log">pageSize = 1, pageNum = 1, name = &#x27;小米手机专用券&#x27;, type = 0, msg = &#x27;根据优惠券名称获取优惠券列表&#x27;<br/>code = 200<br/><br/>&gt;   ???<br/><br/>&lt;string&gt;:1: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/>common\TestHome.py:31: in wrapper<br/>    api_obj.check()<br/>Gwe_service\api\service\CouponList.py:43: in check<br/>    ObjAssert().is_equal(exp_obj=exp_obj.list[0], act_obj=self.resp.data.list[0], is_toggle=False, ex=[])<br/>common\ObjAssert.py:57: in is_equal<br/>    check_equal(act_v=self.error_list, exp_v=[], err_msg=&quot;API Test Fail!!!!!!!&quot;)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>act_v = [{&#x27;act_value&#x27;: 3, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/id&#x27;}, {&#x27;act_value&#x27;: &#x27;小米手机专用券&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/name&#x27;}, {&#x27;act...t_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/perLimit&#x27;}, {&#x27;act_value&#x27;: 1000.0, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/minPoint&#x27;}, ...]<br/>exp_v = [], err_msg = &#x27;API Test Fail!!!!!!!&#x27;, only_log_error = False<br/>show_err = False<br/><br/>    def check_equal(act_v, exp_v, err_msg=None, only_log_error=False, show_err=False):<br/>        &quot;&quot;&quot;<br/>            check actual result does match expected or not<br/>            :param string/list act_v<br/>            :param string/list exp_v<br/>            :param string err_msg<br/>            :param boolean only_log_error<br/>        &quot;&quot;&quot;<br/>    <br/>        if err_msg is None:<br/>            err_msg = &quot;断言期望结果:{expectedVal}=实际结果{actualVal}&quot;.format(actualVal=act_v, expectedVal=exp_v)<br/>        elif show_err is True:<br/>            err_msg += &quot;, 期望结果: {expectedVal},实际结果: {actualVal}&quot;.format(actualVal=act_v,<br/>                                                                        expectedVal=exp_v)<br/>    <br/>        if act_v != exp_v:<br/>            log.error(err_msg)<br/>            if only_log_error:<br/>                return False<br/>            else:<br/>&gt;               raise AssertionError(err_msg + &quot; 失败&quot;)<br/><span class="error">E               AssertionError: API Test Fail!!!!!!! 失败</span><br/><br/>common\func.py:194: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>Logger.py                   68 INFO     根据优惠券名称获取优惠券列表
 Logger.py                  118 INFO     根据优惠券名称和类型分页获取优惠券列表
 Logger.py                   26 INFO     Send Json request and check the http status to &#x27;200&#x27;, then return dict
 Logger.py                  118 INFO     /coupon/list
-Logger.py                   26 INFO     Header: {&#x27;Content-Type&#x27;: &#x27;application/json&#x27;, &#x27;Accept&#x27;: &#x27;application/json&#x27;, &#x27;User-Agent&#x27;: &#x27;tester-pc&#x27;, &#x27;Authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1ODM0MTU5MTY2NDYsImV4cCI6MTU4NDAyMDcxNn0.kNOIZs12EtfE_VtUo0LzqqUrptp8fUhibdo7sE1LudsUc1ida9CQGHaa-MQYN1hb4GOnwvC6j3molNWqOeGb_A&#x27;}
+Logger.py                   26 INFO     Header: {&#x27;Content-Type&#x27;: &#x27;application/json&#x27;, &#x27;Accept&#x27;: &#x27;application/json&#x27;, &#x27;User-Agent&#x27;: &#x27;tester-pc&#x27;, &#x27;Authorization&#x27;: &#x27;Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1ODM1MDQxODE2NjAsImV4cCI6MTU4NDEwODk4MX0.zd4iMCJ8DC8nixxBqPLvkzfO9FntpKVCoGJfsy2KUmBGgUE4-1rrwGR3lF0M5QpBGkp2f4BITzsT5fW2w6x1Sg&#x27;}
 Logger.py                  118 INFO     {
   &quot;name&quot;: &quot;小米手机专用券&quot;,
   &quot;type&quot;: 0,
   &quot;pageSize&quot;: 1,
-  &quot;pageNum&quot;: 1,
-  &quot;id&quot;: null
+  &quot;pageNum&quot;: 1
 }
 Logger.py                  118 INFO     {
   &quot;code&quot;: 200,
@@ -327,88 +326,56 @@ Logger.py                  118 INFO     {
     ]
   }
 }
-Logger.py                   49 INFO     [144.34.200.237]:SELECT `t1`.`*`FROM `sms_coupon` AS `t1`
-Logger.py                   77 INFO     路径:/pageNum
-Logger.py                   77 INFO     比较期望值:None实际值:1
-Logger.py                   77 INFO     路径:/pageSize
-Logger.py                   77 INFO     比较期望值:None实际值:1
-Logger.py                   77 INFO     路径:/totalPage
-Logger.py                   77 INFO     比较期望值:None实际值:1
-Logger.py                   77 INFO     路径:/total
-Logger.py                   77 INFO     比较期望值:None实际值:1
-Logger.py                   77 INFO     路径:list的长度
-Logger.py                   77 INFO     比较期望值:1实际值:1
-Logger.py                   77 INFO     路径:/list/0/id
+Logger.py                   49 INFO     [144.34.200.237]:SELECT `t1`.`*`FROM `sms_coupon` AS `t1` WHERE (`t1`.`id` = 3)
+Logger.py                   77 INFO     路径:/id
 Logger.py                   77 INFO     比较期望值:None实际值:3
-Logger.py                   77 INFO     路径:/list/0/type
+Logger.py                   77 INFO     路径:/type
 Logger.py                   77 INFO     比较期望值:None实际值:0
-Logger.py                   77 INFO     路径:/list/0/name
+Logger.py                   77 INFO     路径:/name
 Logger.py                   77 INFO     比较期望值:None实际值:小米手机专用券
-Logger.py                   77 INFO     路径:/list/0/platform
+Logger.py                   77 INFO     路径:/platform
 Logger.py                   77 INFO     比较期望值:None实际值:0
-Logger.py                   77 INFO     路径:/list/0/count
+Logger.py                   77 INFO     路径:/count
 Logger.py                   77 INFO     比较期望值:None实际值:92
-Logger.py                   77 INFO     路径:/list/0/amount
+Logger.py                   77 INFO     路径:/amount
 Logger.py                   77 INFO     比较期望值:None实际值:50.0
-Logger.py                   77 INFO     路径:/list/0/perLimit
+Logger.py                   77 INFO     路径:/perLimit
 Logger.py                   77 INFO     比较期望值:None实际值:1
-Logger.py                   77 INFO     路径:/list/0/minPoint
+Logger.py                   77 INFO     路径:/minPoint
 Logger.py                   77 INFO     比较期望值:None实际值:1000.0
-Logger.py                   77 INFO     路径:/list/0/startTime
+Logger.py                   77 INFO     路径:/startTime
 Logger.py                   77 INFO     比较期望值:None实际值:2018-08-27T08:40:47.000+0000
-Logger.py                   77 INFO     路径:/list/0/endTime
+Logger.py                   77 INFO     路径:/endTime
 Logger.py                   77 INFO     比较期望值:None实际值:2018-11-16T08:40:47.000+0000
-Logger.py                   77 INFO     路径:/list/0/useType
+Logger.py                   77 INFO     路径:/useType
 Logger.py                   77 INFO     比较期望值:None实际值:2
-Logger.py                   77 INFO     路径:/list/0/note
+Logger.py                   77 INFO     路径:/note
 Logger.py                   77 INFO     比较期望值:None实际值:小米手机专用优惠券
-Logger.py                   77 INFO     路径:/list/0/publishCount
+Logger.py                   77 INFO     路径:/publishCount
 Logger.py                   77 INFO     比较期望值:None实际值:100
-Logger.py                   77 INFO     路径:/list/0/useCount
+Logger.py                   77 INFO     路径:/useCount
 Logger.py                   77 INFO     比较期望值:None实际值:0
-Logger.py                   77 INFO     路径:/list/0/receiveCount
+Logger.py                   77 INFO     路径:/receiveCount
 Logger.py                   77 INFO     比较期望值:None实际值:8
-Logger.py                   77 INFO     路径:/list/0/enableTime
+Logger.py                   77 INFO     路径:/enableTime
 Logger.py                   77 INFO     比较期望值:None实际值:2018-08-27T08:40:47.000+0000
-Logger.py                   77 INFO     路径:/list/0/code
+Logger.py                   77 INFO     路径:/code
 Logger.py                   77 INFO     比较期望值:None实际值:None
-Logger.py                   77 INFO     路径:/list/0/memberLevel
+Logger.py                   77 INFO     路径:/memberLevel
 Logger.py                   77 INFO     比较期望值:None实际值:None
 Logger.py                   41 ERROR    [1;35m =====================Assert Error Msg ====================== [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/pageNum&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/pageSize&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/totalPage&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/total&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:id [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 3, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/id&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:type [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:name [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;小米手机专用券&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/name&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:platform [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:count [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 92, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/count&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:amount [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 50.0, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/amount&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:perLimit [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/perLimit&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:minPoint [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1000.0, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/minPoint&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:startTime [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;2018-08-27T08:40:47.000+0000&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/startTime&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:endTime [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;2018-11-16T08:40:47.000+0000&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/endTime&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:useType [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 2, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/useType&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:note [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;小米手机专用优惠券&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/note&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:publishCount [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 100, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/publishCount&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:useCount [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:receiveCount [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 8, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/receiveCount&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:enableTime [0m!
-Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;2018-08-27T08:40:47.000+0000&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/list/0/enableTime&#x27;} [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:code [0m!
-Logger.py                   41 ERROR    [1;35m &lt;Gwe_service.api.controller.CouponListObj.CouponListObj.Resp.CommonPageSmsCoupon.SmsCoupon object at 0x0484FF90&gt;中不存在属性:memberLevel [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 3, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/id&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;小米手机专用券&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/name&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 92, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/count&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 50.0, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/amount&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/perLimit&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 1000.0, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/minPoint&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;2018-08-27T08:40:47.000+0000&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/startTime&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;2018-11-16T08:40:47.000+0000&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/endTime&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 2, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/useType&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;小米手机专用优惠券&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/note&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 100, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/publishCount&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: 8, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/receiveCount&#x27;} [0m!
+Logger.py                   41 ERROR    [1;35m {&#x27;act_value&#x27;: &#x27;2018-08-27T08:40:47.000+0000&#x27;, &#x27;exp_value&#x27;: None, &#x27;key&#x27;: &#x27;/enableTime&#x27;} [0m!
 Logger.py                   41 ERROR    [1;35m =============仅仅打印orderId不一致的情况=============== [0m!
 Logger.py                   41 ERROR    [1;35m API Test Fail!!!!!!! [0m!</div></td></tr></tbody></table></body></html>

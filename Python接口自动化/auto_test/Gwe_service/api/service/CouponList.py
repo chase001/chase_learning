@@ -21,22 +21,28 @@ class CouponList(TemplateController):
         2. 检查其他内容：redis, mq ,
         :return:
         """
+
         assert str(self.status) == str(self.resp.code), "该接口实际返回结果中的code{act_code}码不符合期望结果{exp_code}".format(act_code=self.resp.code,
                                                                                                    exp_code=self.status)
         assert str(self.message) == str(self.resp.message)
 
-        # 检查数据库
-        exp_obj = TemplateController.Resp.CommonPageSmsCoupon()
-        from Gwe_service.check.GwePWUtil import db
-        coupon_detail = db.sms_coupon(id=self.body.id)
-        if coupon_detail:
-            fill_in_obj_from_obj(exp_obj, coupon_detail[0])
-            # f = "%Y-%m-%dT%H:%M:%S.000+0000"
-            # exp_obj.startTime = exp_obj.startTime.strftime(format=f)
-            # exp_obj.endTime = exp_obj.endTime.strftime(format=f)
-            # exp_obj.enableTime = exp_obj.enableTime.strftime(format=f)
+        from Gwe_service.data.status import ConsStatusCode
+        if self.status == ConsStatusCode.OK:
+            # 检查数据库
+            exp_obj = TemplateController.Resp.CommonPageSmsCoupon()
+            from Gwe_service.check.GwePWUtil import db
+            coupon_detail = db.sms_coupon(id=3)
+            if coupon_detail:
+                fill_in_obj_from_obj(exp_obj, coupon_detail[0])
+                # f = "%Y-%m-%dT%H:%M:%S.000+0000"
+                # exp_obj.startTime = exp_obj.startTime.strftime(format=f)
+                # exp_obj.endTime = exp_obj.endTime.strftime(format=f)
+                # exp_obj.enableTime = exp_obj.enableTime.strftime(format=f)
 
-            from common.ObjAssert import ObjAssert
-            ObjAssert().is_equal(exp_obj=exp_obj, act_obj=self.resp.data, is_toggle=False, ex=[])
-        else:
-            assert self.resp.data is None
+                from common.ObjAssert import ObjAssert
+                ObjAssert().is_equal(exp_obj=exp_obj.list[0], act_obj=self.resp.data.list[0], is_toggle=False, ex=[])
+            else:
+                assert self.resp.data.list[0] is None
+
+
+

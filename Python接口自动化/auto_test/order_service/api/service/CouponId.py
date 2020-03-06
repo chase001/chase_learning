@@ -22,6 +22,7 @@ class CouponId(TemplateController):
         2. 检查其他内容：redis, mq ,
         :return:
         """
+        from order_service.data.status import ConsStatusCode
         assert str(self.status) == str(self.resp.code), "该接口实际返回结果中的code{act_code}码不符合期望结果{exp_code}".format(act_code=self.resp.code,
                                                                                                    exp_code=self.status)
         assert str(self.message) == str(self.resp.message)

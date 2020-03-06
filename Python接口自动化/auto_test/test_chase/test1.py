@@ -1,8 +1,4 @@
-from functools import partial
+tuple = ( 'abcd', 786 , 2.23, 'runoob', 70.2  )
+tinytuple = (123, 'runoob')
 
-def add(x:int,y:int):
-    return x + y
-
-add2 = partial(add,y=2)
-
-print(add2(3))
+print(tuple[1])
